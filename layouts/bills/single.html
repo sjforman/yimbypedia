@@ -1,0 +1,11 @@
+{{ define "main" }}
+{{ $billId := .Params.billId }}
+<article>
+    {{ range $.Site.Data.bills }}
+        {{ if eq .id $billId }}
+            <h1>{{ .title }}</h1>
+            <div>{{ .content }}</div>
+        {{ end }}
+    {{ end }}
+</article>
+{{ end }}
