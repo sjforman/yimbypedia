@@ -1,5 +1,5 @@
-baseURL = 'https://yimbypedia.org/'
+baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'YIMBYpedia'
+title = 'My New Hugo Site'
 [permalinks]
-  bills = "/bills/:filename/"
+  posts = "/posts/:year/:month/:day/:slug/"
