@@ -1,3 +1,5 @@
 baseURL = 'https://yimbypedia.org/'
 languageCode = 'en-us'
 title = 'YIMBYpedia'
+[permalinks]
+  bills = "/bills/:filename/"
