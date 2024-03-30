@@ -12,13 +12,13 @@ if (!fs.existsSync(billsDir)) {
 
 // Generate Markdown files for each bill
 billsData.forEach(bill => {
-  const billFileName = `${bill.id}.md`;
+  const billFileName = `${bill.id.toLowerCase()}.md`;
   const billFilePath = path.join(billsDir, billFileName);
   const billContent = `---
 title: "${bill.title}"
 ---
 
-${bill.content}
+${bill.summary}
 `;
   fs.writeFileSync(billFilePath, billContent);
 });
