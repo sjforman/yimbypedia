@@ -9,7 +9,7 @@
     <h1>Bills</h1>
     <ul>
         {{ range $.Site.Data.bills }}
-            <li><a href="/bills/{{ lower .id }}">{{ .title }}</a></li>
+            <li><a href="/bills/{{ lower .id }}">{{ .formalTitle }}</a></li>
         {{ end }}
     </ul>
 </body>

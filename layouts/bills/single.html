@@ -3,10 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ .Title }}</title>
+    <title>{{ .Params.formalTitle }}</title>
 </head>
 <body>
-    <h1>{{ .Title }}</h1>
+    <h1>{{ .Params.formalTitle }}</h1>
+    <p>ID: {{ .Params.id }}</p>
+    <p>Summary:</p>
+    <p>{{ .Params.summary }}</p>
+    <p>Legislative Text URI: <a href="{{ .Params.legislativeTextURI }}" target="_blank">{{ .Params.legislativeTextURI }}</a></p>
+    <hr>
+    <h2>Content:</h2>
     <p>{{ .Content }}</p>
 </body>
 </html>
