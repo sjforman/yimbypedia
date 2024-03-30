@@ -1,0 +1,12 @@
+[
+    {
+      "id": "bill-1",
+      "title": "Bill 1",
+      "content": "This is the content of Bill 1."
+    },
+    {
+      "id": "bill-2",
+      "title": "Bill 2",
+      "content": "This is the content of Bill 2."
+    }
+  ]
