@@ -19,8 +19,6 @@ function generateMarkdownFiles() {
     const billContent = `---
 ${JSON.stringify(bill, null, 2)}
 ---
-
-${bill.summary}
 `;
 
     fs.writeFileSync(billFilePath, billContent);

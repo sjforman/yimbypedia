@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ .Params.id}} {{ .Params.simpleTitle }}</title>
+    <title>YIMBYpedia | {{ .Params.id}}</title>
 </head>
 <body>
-    <h1>{{ .Params.id}}: {{ .Params.simpleTitle }}</h1>
+    <h1>{{ .Params.id}}: {{ .Params.memTitle }}</h1>
     <h2>{{ .Params.formalTitle }}</h2>
     <p>State: {{ .Params.state }}</p>
     <p>In effect as of: {{ time.Format "January 2, 2006" .Params.inEffectDate }}</p>
