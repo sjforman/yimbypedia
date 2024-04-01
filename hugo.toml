@@ -5,5 +5,6 @@ title = 'YIMBYpedia'
 [taxonomies]
   jurisdiction = "jurisdictions"
   jurisdictionType = "jurisdiction_types"
+  sponsor = "sponsors"
   status = "statuses"
   tag = "tags"

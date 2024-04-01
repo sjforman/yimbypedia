@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ .Title }}</title>
-    <link rel="stylesheet" href="/css/index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ .Title }}</title>
+  <link rel="stylesheet" href="/css/index.css">
 </head>
 <body class="bg-gray-50 text-gray-900 font-sans leading-normal">
-    <div class="max-w-4xl mx-auto px-4 py-8">
-        <h1 class="text-4xl font-bold mb-4">YIMBYpedia</h1>
-        <div class="mb-8">
-            A compendium of YIMBY legislative efforts.
+  <div class="max-w-6xl mx-auto px-4 py-8">
+    <h1 class="text-4xl font-bold mb-4">YIMBYpedia</h1>
+    <p class="mb-8">
+      A compendium of YIMBY legislative efforts.
+    </p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      {{ range .Site.RegularPages }}
+        <div class="h-full">
+          {{ partial "bill-card-small.html" . }}
         </div>
-        <a href="/bills" class="inline-block bg-blue-500 text-white font-semibold py-2 px-4 rounded hover:bg-blue-600 transition-colors duration-200">See All</a>
-        {{ range (where .Site.RegularPages "Type" "bills") }}
-        <li class="mb-2">
-            <a href="{{ .RelPermalink }}" class="text-blue-500 hover:text-blue-700 transition duration-150 ease-in-out">{{ .Params.memTitle }}</a>
-        </li>
-        {{ end }}
+      {{ end }}
     </div>
+  </div>
 </body>
 </html>
