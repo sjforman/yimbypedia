@@ -13,6 +13,11 @@
             A compendium of YIMBY legislative efforts.
         </div>
         <a href="/bills" class="inline-block bg-blue-500 text-white font-semibold py-2 px-4 rounded hover:bg-blue-600 transition-colors duration-200">See All</a>
+        {{ range (where .Site.RegularPages "Type" "bills") }}
+        <li class="mb-2">
+            <a href="{{ .RelPermalink }}" class="text-blue-500 hover:text-blue-700 transition duration-150 ease-in-out">{{ .Params.memTitle }}</a>
+        </li>
+        {{ end }}
     </div>
 </body>
 </html>

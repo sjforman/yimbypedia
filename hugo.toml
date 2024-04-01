@@ -1,9 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://yimbypedia.org/'
 languageCode = 'en-us'
 title = 'YIMBYpedia'
-
-[params]
-  customCSS = ["css/tailwind.css"]
 
 [taxonomies]
   jurisdiction = "jurisdictions"
