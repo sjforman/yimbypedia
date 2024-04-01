@@ -1,3 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+
+[params]
+  customCSS = ["css/tailwind.css"]
