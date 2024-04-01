@@ -39,7 +39,7 @@
       },
       {
         "id": "SB951",
-        "memTitle": "California Coastal Commission: you must stop some of your bullshit, and you have no business in already-urban SF.",
+        "memTitle": "CA Coastal Commission: stop some of your bullshit, and you have no business in already-urban SF.",
         "formalTitle": "An act to amend Section 65583 of the Government Code, and to amend Section 30603 of, and to add Section 30175 to, the Public Resources Code, relating to coastal resources.",
         "summary": "This bill proposes amendments to streamline housing development in coastal areas, particularly focusing on the California Coastal Act of 1976. It introduces changes aimed at easing housing element requirements and rezoning standards for jurisdictions within the coastal zone, including the City and County of San Francisco. The bill also modifies appeal processes for coastal development permits and allows for electronic notification to the California Coastal Commission. The intent is to facilitate the development of more housing by reducing regulatory barriers and simplifying procedures for coastal zone developments.",
         "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB951",
@@ -52,7 +52,7 @@
       },
       {
         "id": "SB1227",
-        "memTitle": "SF, no more CEQA for your NIMBYs to weaponize, and some home-building incentives while we're at it.",
+        "memTitle": "SF, no more CEQA for your NIMBYs to weaponize, and some home-building incentives.",
         "formalTitle": "An act to add and repeal Section 21080.59 of the Public Resources Code, and to amend Section 214 of the Revenue and Taxation Code, relating to housing.",
         "summary": "Introduces tax incentives and CEQA exemptions for development projects within a defined downtown revitalization zone in San Francisco until 2035, aimed at stimulating urban development. It mandates the use of a skilled workforce for these projects, under penalty of perjury, and proposes a partial property tax exemption for properties serving moderate-income households, subject to specific conditions. The bill is a targeted effort to boost housing and commercial development in San Francisco's downtown area, with specific benefits for moderate-income housing projects, and requires developers to adhere to labor standards.",
         "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB1227",
@@ -62,5 +62,25 @@
         "inEffectDate": null,
         "relatedBills": null,
         "sponsors": ["Scott Wiener"]
+      },
+      {
+        "id": "SB4",
+        "memTitle": "Universities and religious institutions, let's build some housing!",
+        "formalTitle": "Planning and zoning: housing development: higher education institutions and religious institutions.",
+        "summary": "Requires housing development projects to be a use by right upon request from qualified developers on land owned by higher education institutions or religious institutions, if specified criteria are met. 100% of units must be affordable, with 20% allowed for moderate-income and 5% for institution staff. Provides density bonuses and CEQA exemptions for qualifying projects, while requiring skilled and trained workforce and healthcare expenditure standards for projects with 50+ units.",
+        "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB4",
+        "jurisdictions": [
+          "California"
+        ],
+        "jurisdictionTypes": [
+          "State"
+        ],
+        "statuses": [
+          "Enacted"
+        ],
+        "inEffectDate": "2023-10-11",
+        "sponsors": [
+          "Scott Wiener"
+        ]
       }
   ]
