@@ -10,7 +10,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "gen-bills": "node bin/make-pages.js",
     "dev": "concurrently \"npm run watch:css\" \"npm run gen-bills\" \"hugo server -vD\"",
-    "watch:css": "npx tailwindcss -i ./assets/css/input.css -o ./static/css/index.css --watch"
+    "watch:css": "npx tailwindcss -i ./assets/css/input.css -o ./static/css/index.css --watch",
+    "deploy": "npm-run-all -s deploy:s3 deploy:cloudfront",
+    "deploy:s3": "aws s3 sync ./public s3://yimbypedia.org --delete",
+    "deploy:cloudfront": "aws cloudfront create-invalidation --distribution-id EHN8D629IMZDC --paths \"/*\"" 
   },
   "author": "",
   "license": "ISC",
@@ -21,6 +24,7 @@
     "autoprefixer": "^10.4.19",
     "chokidar-cli": "^3.0.0",
     "concurrently": "^8.2.2",
+    "npm-run-all": "^4.1.5",
     "postcss": "^8.4.38",
     "postcss-cli": "^11.0.0",
     "tailwindcss": "^3.4.3"
