@@ -1,0 +1,30 @@
+<!-- layouts/_default/taxonomy.html -->
+<h1>{{ .Title }}</h1>
+<div>
+    {{ range .Data.Terms.Alphabetical }}
+    <div>
+        <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> ({{ .Count }})
+    </div>
+    {{ end }}
+</div>
+<ul>
+    {{ range $taxonomy, $terms := site.Taxonomies }}
+    <li>
+        {{ with site.GetPage $taxonomy }}
+        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        {{ end }}
+        <ul>
+            {{ range $term, $weightedPages := $terms }}
+            <li>
+                <a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a>
+                <ul>
+                    {{ range $weightedPages }}
+                    <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+                    {{ end }}
+                </ul>
+            </li>
+            {{ end }}
+        </ul>
+    </li>
+    {{ end }}
+</ul>

@@ -1,0 +1,14 @@
+<!-- layouts/_default/terms.html -->
+<h1>{{ .Title }}</h1>
+{{ if .Data.Pages }}
+<ul>
+  {{ range .Data.Pages }}
+  <li>
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+    <p>{{ .Summary }}</p>
+  </li>
+  {{ end }}
+</ul>
+{{ else }}
+<p>No content found for this term.</p>
+{{ end }}

@@ -5,9 +5,9 @@
       "formalTitle": "An act to amend Section 65589.5 of the Government Code, relating to housing.",
       "summary": "Amends the Housing Accountability Act to expand the definition of 'disapproving' a housing development project to include instances where a local agency fails to make a timely determination on a project's CEQA exemption or commits an abuse of discretion. It also expands the definition to include failing to adopt or certify a negative declaration, addendum, EIR, or comparable environmental document for a project that meets specified location and density criteria. The bill aims to facilitate housing development by limiting the ability of local agencies to disapprove or condition housing projects in violation of the Housing Accountability Act.",
       "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB1633",
-      "jurisdiction": "California",
-      "jurisdictionType": "State",
-      "status": "Enacted",
+      "jurisdictions": ["California"],
+      "jurisdictionTypes": ["State"],
+      "statuses": ["Enacted"],
       "inEffectDate": "2023-10-11"
     },
     {
@@ -16,9 +16,9 @@
       "formalTitle": "An act to amend Section 21080.58 of the Public Resources Code, relating to environmental quality.",
       "summary": "Amends the California Environmental Quality Act (CEQA) exemption for university housing development projects. Changes the requirement for each building in an exempt project to qualify for LEED Platinum certification to LEED Gold certification with a point total of 79 or better. A public university must obtain LEED Platinum certification for each building within 12 months of occupancy. The university cannot exempt a new project until obtaining LEED Platinum for all buildings in the prior exempted project. Aims to facilitate more university housing development by easing the LEED certification requirements for CEQA exemption.",
       "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB312",
-      "jurisdiction": "California",
-      "jurisdictionType": "State",
-      "status": "Amended in Senate",
+      "jurisdictions": ["California"],
+      "jurisdictionTypes": ["State"],
+      "statuses": ["Pending"],
       "inEffectDate": null
       }
   ]
