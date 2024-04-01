@@ -4,3 +4,9 @@ title = 'YIMBYpedia'
 
 [params]
   customCSS = ["css/tailwind.css"]
+
+[taxonomies]
+  jurisdiction = "jurisdictions"
+  jurisdictionType = "jurisdiction_types"
+  status = "statuses"
+  tag = "tags"

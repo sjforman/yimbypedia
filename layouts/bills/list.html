@@ -3,14 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bills</title>
+    <title>YIMBYpedia | All the Bills</title>
+    <link href="/css/index.css" rel="stylesheet">
 </head>
-<body>
-    <h1>Bills</h1>
-    <ul>
-        {{ range $.Site.Data.bills }}
-            <li><a href="/bills/{{ lower .id }}">{{ .formalTitle }}</a></li>
-        {{ end }}
-    </ul>
+<body class="bg-gray-50 text-gray-900 font-sans leading-normal">
+    <div class="max-w-4xl mx-auto px-4 py-8">
+        <h1 class="text-4xl font-bold mb-6">Bills</h1>
+        <ul class="list-disc pl-5">
+            {{ range (where .Site.RegularPages "Type" "bills") }}
+            <li class="mb-2">
+                <a href="{{ .RelPermalink }}" class="text-blue-500 hover:text-blue-700 transition duration-150 ease-in-out">{{ .Params.memTitle }}</a>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
 </body>
 </html>

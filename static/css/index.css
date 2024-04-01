@@ -567,6 +567,10 @@ video {
   margin-bottom: 1rem;
 }
 
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
 .mb-8 {
   margin-bottom: 2rem;
 }
@@ -577,6 +581,10 @@ video {
 
 .max-w-4xl {
   max-width: 56rem;
+}
+
+.list-disc {
+  list-style-type: disc;
 }
 
 .rounded {
@@ -606,6 +614,10 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
 }
 
 .font-sans {
