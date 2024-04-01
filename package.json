@@ -9,7 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "gen-bills": "node bin/make-pages.js",
-    "dev": "concurrently \"npm run gen-bills\" \"hugo serve -D\""
+    "dev": "concurrently \"npm run watch:css\" \"npm run gen-bills\" \"hugo serve -D\"",
+    "watch:css": "npx tailwindcss -i ./assets/css/input.css -o ./static/css/index.css --watch"
   },
   "author": "",
   "license": "ISC",
@@ -18,6 +19,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.19",
+    "chokidar-cli": "^3.0.0",
     "concurrently": "^8.2.2",
     "postcss": "^8.4.38",
     "postcss-cli": "^11.0.0",
