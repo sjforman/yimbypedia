@@ -174,17 +174,54 @@
     "summary": "Requires transit-oriented communities to meet housing opportunity goals by ensuring enough areas qualify as transit centers, and requiring that transit centers allow density of 15+ units/acre, and have an administrative approval process for 5 acre or smaller multifamily. Communities to submit reports on meeting goals and implementing affordability and displacement mitigation strategies. Funding and support provided through grants for upgrading infrastructure in transit centers. The bill also limits housing restrictions by planned unit developments and HOAs in transit centers.",
     "legislativeTextURI": "http://leg.colorado.gov/bills/hb24-1313",
     "states": [
-      "Colorado" 
+      "Colorado"
     ],
     "statuses": [
       "Pending"
-    ],  
+    ],
     "inEffectDate": null,
     "sponsors": [
       "Dylan Woodrow",
       "Iman Jodeh",
-      "Chris Hansen", 
+      "Chris Hansen",
       "Faith Winter"
+    ]
+  },
+  {
+    "id": "SB684",
+    "memTitle": "For fuck's sake, at least allow *small* housing developments in urban areas.",
+    "formalTitle": "An act to add Sections 65852.28, 65913.4.5, and 66499.41 to the Government Code, relating to land use.",
+    "summary": "Requires local agencies to ministerially approve, without discretionary review, parcel maps, tentative maps, and final maps for housing development projects of 10 or fewer units on lots zoned for multifamily, 5 acres or less, substantially surrounded by urban uses. It streamlines building permits for such projects and limits the standards local agencies can impose. The bill exempts such projects from minimum parcel size requirements and HOA formation. It also prevents accessory dwelling units and SB 9 lot splits from being required on parcels created through this process.",
+    "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240SB684",
+    "states": [
+      "California"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "inEffectDate": "2024-07-01",
+    "sponsors": [
+      "Anna Caballero"
+    ]
+  },
+  {
+    "id": "BR996",
+    "memTitle": "Let's just implement a big swath of the YIMBY program all at once!",
+    "formalTitle": "AN ACT relating to housing opportunities.",
+    "summary": "The HOME (Housing Opportunities Made Easier) Act aims to expand housing options in Kentucky. It prohibits minimum square footage requirements and most aesthetic design standards on housing unless necessary for health and safety. It allows duplexes in all single-family zones, triplexes and quadplexes in city single-family zones, and secondary dwelling units and tiny homes on single-family lots. It streamlines permitting and variance processes and limits fees. It allows home occupations and mixed-use in residential and commercial zones, with some restrictions. The bill also prevents most rental restrictions by local governments.",
+    "legislativeTextURI": "https://apps.legislature.ky.gov/record/24rs/hb102.html",
+    "states": [
+      "Kentucky"
+    ],
+    "statuses": [
+      "Pending"
+    ],
+    "inEffectDate": null,
+    "sponsors": [
+      "Steven Doan",
+      "Josh Calloway",
+      "Daniel Grossberg",
+      "Nancy Tate"
     ]
   }
 ]
