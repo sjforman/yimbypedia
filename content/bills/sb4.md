@@ -14,10 +14,8 @@ summary: >-
   for projects with 50+ units.
 legislativeTextURI: >-
   https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB4
-jurisdictions:
+states:
   - California
-jurisdictionTypes:
-  - State
 statuses:
   - Enacted
 inEffectDate: '2023-10-11'
