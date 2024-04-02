@@ -1,7 +1,7 @@
 {{ partial "head.html" . }}
-<body class="bg-gray-50 text-gray-800 font-sans leading-normal">
+<body class="bg-gray-50 text-gray-800 font-sans leading-normal flex flex-col min-h-screen">
     {{ partial "header.html" . }}
-    <main class="max-w-4xl mx-auto px-4 py-8">
+    <main class="max-w-4xl mx-auto px-4 py-8 flex-1">
         <div
             class="bg-white shadow-lg rounded-lg overflow-hidden my-4 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl">
             <div class="px-6 py-4">
@@ -64,5 +64,4 @@
     </main>
     {{ partial "footer.html" . }}
 </body>
-
 </html>
