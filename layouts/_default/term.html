@@ -1,14 +1,20 @@
-<!-- layouts/_default/terms.html -->
-<h1>{{ .Title }}</h1>
-{{ if .Data.Pages }}
-<ul>
-  {{ range .Data.Pages }}
-  <li>
-    <a href="{{ .Permalink }}">{{ .Title }}</a>
-    <p>{{ .Summary }}</p>
-  </li>
-  {{ end }}
-</ul>
-{{ else }}
-<p>No content found for this term.</p>
-{{ end }}
+{{ partial "head.html" . }}
+<body class="bg-gray-50 text-gray-900 font-sans leading-normal">
+    {{ partial "header.html" . }}
+    <main class="max-w-6xl mx-auto px-4 py-8">
+        <h1 class="text-4xl font-bold mb-6">{{ .Title }}</h1>
+        {{ if .Data.Pages }}
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {{ range .Data.Pages }}
+            <div class="h-full">
+                {{ partial "bill-card-small.html" . }}
+            </div>
+            {{ end }}
+        </div>
+        {{ else }}
+        <p>No content found for this term.</p>
+        {{ end }}
+    </main>
+    {{ partial "footer.html" . }}
+</body>
+</html>

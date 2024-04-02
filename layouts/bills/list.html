@@ -1,21 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YIMBYpedia | All the Bills</title>
-    <link rel="stylesheet" href="/css/index.css">
-</head>
+{{ partial "head.html" . }}
 <body class="bg-gray-50 text-gray-900 font-sans leading-normal">
-    <div class="max-w-4xl mx-auto px-4 py-8">
-        <h1 class="text-4xl font-bold mb-6">Bills</h1>
-        <ul class="list-disc pl-5">
-            {{ range (where .Site.RegularPages "Type" "bills") }}
-            <li class="mb-2">
-                <a href="{{ .RelPermalink }}" class="text-blue-500 hover:text-blue-700 transition duration-150 ease-in-out">{{ .Params.id }}: {{ .Params.memTitle }}</a>
-            </li>
+    {{ partial "header.html" . }}
+    <main class="max-w-6xl mx-auto px-4 py-8">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {{ range .Site.RegularPages }}
+            <div class="h-full">
+                {{ partial "bill-card-small.html" . }}
+            </div>
             {{ end }}
-        </ul>
-    </div>
+        </div>
+    </main>
+    {{ partial "footer.html" . }}
 </body>
 </html>
