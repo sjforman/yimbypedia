@@ -1,19 +1,28 @@
 <div class="bg-white shadow-lg rounded-lg overflow-hidden my-4 flex flex-col transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl h-full">
-  <a href="{{ .Permalink }}" class="block flex-1 flex flex-col">
-    <div class="px-6 py-4 flex-1">
-      <h2 class="bill-title font-bold text-xl mb-2">{{ .Params.id }}</h2>
-      <h3 class="bill-title font-semibold text-md text-gray-600 mb-2">{{ .Params.memTitle }}</h3>
-      {{ with .Params.statuses }}
-        {{ range . }}
+  <a href="{{ .Permalink }}" class="block flex-1">
+    <div class="px-6 py-4 flex-1 flex flex-col justify-between h-full">
+      <div>
+        <h2 class="bill-title font-bold text-xl mb-2">{{ .Params.id }}</h2>
+        <h3 class="bill-title font-semibold text-md text-gray-600 mb-2">{{ .Params.memTitle }}</h3>
+      </div>
+      <div>
+        {{ with .Params.states }}
         <p class="status text-sm font-medium mb-2">
+          {{ range . }}{{ . }}{{ end }}
+        </p>
+        {{ end }}
+        {{ with .Params.statuses }}
+        <p class="status text-sm font-medium mb-2">
+          {{ range . }}
           {{ if eq . "Pending" }}Status: Pending 🕒
           {{ else if eq . "Enacted" }}Status: Enacted ✅
           {{ else if eq . "Failed" }}Status: Failed ❌
           {{ else }}Status: {{ . }}
           {{ end }}
+          {{ end }}
         </p>
         {{ end }}
-      {{ end }}
+      </div>
     </div>
   </a>
 </div>

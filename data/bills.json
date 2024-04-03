@@ -18,7 +18,7 @@
   },
   {
     "id": "SB312",
-    "memTitle": "Universities, you can have a smidge more leeway on LEED standards for university housing.",
+    "memTitle": "Universities building housing can have a smidge more leeway on LEED standards",
     "formalTitle": "An act to amend Section 21080.58 of the Public Resources Code, relating to environmental quality.",
     "summary": "Amends the California Environmental Quality Act (CEQA) exemption for university housing development projects. Changes the requirement for each building in an exempt project to qualify for LEED Platinum certification to LEED Gold certification with a point total of 79 or better. A public university must obtain LEED Platinum certification for each building within 12 months of occupancy. The university cannot exempt a new project until obtaining LEED Platinum for all buildings in the prior exempted project. Aims to facilitate more university housing development by easing the LEED certification requirements for CEQA exemption.",
     "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB312",
@@ -189,7 +189,7 @@
   },
   {
     "id": "SB684",
-    "memTitle": "For fuck's sake, at least allow *small* housing developments in urban areas.",
+    "memTitle": "At least allow *small* housing developments in urban areas!",
     "formalTitle": "An act to add Sections 65852.28, 65913.4.5, and 66499.41 to the Government Code, relating to land use.",
     "summary": "Requires local agencies to ministerially approve, without discretionary review, parcel maps, tentative maps, and final maps for housing development projects of 10 or fewer units on lots zoned for multifamily, 5 acres or less, substantially surrounded by urban uses. It streamlines building permits for such projects and limits the standards local agencies can impose. The bill exempts such projects from minimum parcel size requirements and HOA formation. It also prevents accessory dwelling units and SB 9 lot splits from being required on parcels created through this process.",
     "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240SB684",
@@ -222,6 +222,123 @@
       "Josh Calloway",
       "Daniel Grossberg",
       "Nancy Tate"
+    ]
+  },
+  {
+    "id": "AB1893",
+    "memTitle": "Adding more Accountability to the Housing Accountability Act",
+    "formalTitle": "An act to amend Section 65589.5 of the Government Code, relating to land use.",
+    "summary": "Amends the Housing Accountability Act to further restrict a local agency's ability to deny or condition housing development projects. It revises the definition of housing for lower/moderate-income households to include projects dedicating at least 10% of units to lower-income households or projects of 10 units or fewer. For agencies without a substantially compliant housing element, it allows project denial only if it exceeds certain density thresholds, fails to meet certain location/site criteria, or fails to comply with objective development standards from the closest multifamily residential zone. It deems projects meeting specified density criteria compliant with ministerial streamlining laws.",
+    "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB1893",
+    "states": [
+      "California"
+    ],
+    "statuses": [
+      "Pending"
+    ],
+    "inEffectDate": null,
+    "sponsors": [
+      "Buffy Wicks"
+    ]
+  },
+  {
+    "id": "SB886",
+    "memTitle": "Public university housing projects can have some relief from CEQA",
+    "formalTitle": "An act to add and repeal Section 21080.58 of the Public Resources Code, relating to environmental quality.",
+    "summary": "This bill, until January 1, 2030, exempts from CEQA university housing development projects carried out by a public university on university-owned property if certain requirements are met, including LEED platinum certification, fully mitigated construction impacts, location restrictions, no net additional greenhouse gas emissions, payment of prevailing wages, use of a skilled and trained workforce, and a public hearing. The bill prohibits a certificate of occupancy until LEED certification is achieved and construction impacts are mitigated. Projects involving demolition of affordable/rent-controlled units, historic structures, or recent tenant-occupied housing are not eligible.",
+    "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202120220SB886",
+    "states": [
+      "California"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "inEffectDate": "2022-09-28",
+    "sponsors": [
+      "Scott Wiener"
+    ],
+    "relatedBills": [
+      "SB312"
+    ]
+  },
+  {
+    "id": "SB35",
+    "memTitle": "Bypass supply-killing requirements in cities not meeting housing goals",
+    "formalTitle": "An act to amend Sections 65400 and 65582.1 of, and to add and repeal Section 65913.4 of, the Government Code, relating to housing.",
+    "summary": "This bill creates a streamlined, ministerial approval process for infill housing developments in localities not meeting their regional housing needs allocation (RHNA) goals, provided the development meets certain requirements. Eligible developments must comply with objective zoning standards, be on an infill site, pay prevailing wages, meet affordable housing requirements based on the locality's progress toward RHNA goals, and meet other criteria. The bill limits parking requirements and prohibits locals from applying additional requirements based on the streamlining. Approvals are valid for 3 years. The bill sunsets on January 1, 2026.",
+    "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201720180SB35",
+    "states": [
+      "California"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "inEffectDate": "2017-09-29",
+    "sponsors": [
+      "Scott Wiener"
+    ],
+    "relatedBills": [
+      "SB423"
+    ]
+  },
+  {
+    "id": "SB423",
+    "memTitle": "Streamline housing approval even more for cities not meeting housing goals",
+    "formalTitle": "An act to amend Section 65913.4 of the Government Code, relating to land use.",
+    "summary": "Expands and enhances SB 35 (2017) which created a streamlined, ministerial approval process for housing in localities not meeting their regional housing needs allocation (RHNA). Key changes include allowing approvals in more areas of the coastal zone, revising labor provisions, prohibiting locals from requiring certain studies/materials for streamlined projects, extending the law's sunset to 2036, and allowing state agencies to use the streamlining on state land. It also includes provisions for Native American tribal consultation and public meetings for certain projects prior to approval.",
+    "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240SB423",
+    "states": [
+      "California"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "inEffectDate": "2023-10-11",
+    "sponsors": [
+      "Scott Wiener"
+    ],
+    "relatedBills": [
+      "SB35"
+    ]
+  },
+  {
+    "id": "AB2011",
+    "memTitle": "Streamline approvals of new housing in commercial zones, with some strings attached",
+    "formalTitle": "An act to amend Sections 65400 and 65585 of, and to add and repeal Chapter 4.1 (commencing with Section 65912.100) of Division 1 of Title 7 of, the Government Code, relating to housing.",
+    "summary": "Creates two streamlined ministerial approval processes for housing in commercial zones: one for 100% affordable housing and one for mixed-income housing that meets specified affordability, labor, and environmental criteria. Key provisions include requiring housing in commercial zones to be a \"use by right\", relaxing parking requirements, requiring prevailing wages and health benefits, and mandating relocation assistance for displaced businesses. Also requires annual reporting on projects, studies by HCD on outcomes, and sunsets on January 1, 2033.",
+    "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202120220AB2011",
+    "states": [
+      "California"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "inEffectDate": "2022-09-28",
+    "sponsors": [
+      "Buffy Wicks"
+    ],
+    "relatedBills": [
+      "SB6"
+    ]
+  },
+  {
+    "id": "SB6",
+    "memTitle": "Allow housing in retail- and office-zoned areas, with some strings attached",
+    "formalTitle": "An act to amend Section 65913.4 of, and to add and repeal Section 65852.24 of, the Government Code, relating to land use.",
+    "summary": "Deems a housing development project an allowable use on a parcel zoned for office, retail, or parking if it meets certain density requirements and other conditions. Requires such projects to comply with local zoning, parking, design and other ordinances. Limits project site to 20 acres or less in urban areas. Requires relocation assistance for displaced businesses. Allows local agencies to exempt parcels if residential density is reallocated. Does not alter housing, environmental, or labor laws applicable to the project. Sunsets the law on January 1, 2033.",
+    "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202120220SB6",
+    "states": [
+      "California"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "inEffectDate": "2022-09-28",
+    "sponsors": [
+      "Anna Caballero"
+    ],
+    "relatedBills": [
+      "AB2011"
     ]
   }
 ]
