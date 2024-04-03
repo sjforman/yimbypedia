@@ -357,5 +357,23 @@
     "sponsors": [
       "Scott Wiener"
     ]
+  },
+  {
+    "id": "SB1211",
+    "memTitle": "No parking space replacement mandates, and more multi-family flexibility, for ADU development",
+    "formalTitle": "An act to amend Section 65852.2 of the Government Code relating to land use.",
+    "summary": "Amend the Planning and Zoning Law concerning the development of Accessory Dwelling Units (ADUs), prohibit local agencies from requiring the replacement of parking spaces when a carport, covered parking structure, or uncovered parking space is demolished or converted into an ADU. The bill modifies existing provisions to allow for the ministerial approval of multiple ADUs on lots with existing or proposed multifamily dwellings. It specifies that detached or attached ADUs may be developed in amounts equal to one or 25% of the existing multifamily dwelling units, whichever is greater, and authorizes two detached ADUs on lots with existing or proposed multifamily dwellings, subject to height limitations and setback requirements. Additionally, the bill ensures that the construction or conversion of ADUs does not necessitate the replacement of demolished or converted parking spaces. By imposing new duties on local governments regarding ADU approvals, SB 1211 creates a state-mandated local program.",
+    "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB1211",
+    "states": [
+      "California"
+    ],
+    "statuses": [
+      "Pending"
+    ],
+    "inEffectDate": null,
+    "sponsors": [
+      "Nancy Skinner"
+    ]
   }
+
 ]
