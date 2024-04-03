@@ -206,7 +206,7 @@
   },
   {
     "id": "BR996",
-    "memTitle": "Let's just implement a big swath of the YIMBY program all at once!",
+    "memTitle": "Just do a bunch of YIMBY stuff all at once",
     "formalTitle": "AN ACT relating to housing opportunities.",
     "summary": "The HOME (Housing Opportunities Made Easier) Act aims to expand housing options in Kentucky. It prohibits minimum square footage requirements and most aesthetic design standards on housing unless necessary for health and safety. It allows duplexes in all single-family zones, triplexes and quadplexes in city single-family zones, and secondary dwelling units and tiny homes on single-family lots. It streamlines permitting and variance processes and limits fees. It allows home occupations and mixed-use in residential and commercial zones, with some restrictions. The bill also prevents most rental restrictions by local governments.",
     "legislativeTextURI": "https://apps.legislature.ky.gov/record/24rs/hb102.html",
@@ -544,7 +544,7 @@
   },
   {
     "id": "AB1820",
-    "memTitle": "Mandating upfront clarity on housing development fees",
+    "memTitle": "Mandatory upfront clarity on housing development fees",
     "formalTitle": "An act to amend Sections 65940.1 and 65941.1 of and to add Section 65943.1 to the Government Code relating to housing.",
     "summary": "Requires cities to provide an estimate of development fees at the time of building permit application, promoting fee transparency and predictability for housing projects. AB 1820 ensures that builders have a clear understanding of the financial requirements from the outset, aiming to reduce unexpected costs that can delay or jeopardize housing developments. The legislation mandates that an itemized list and total sum of all fees and exactions be provided within 10 days of a preliminary application, and again upon final approval of a housing development project. It addresses the issue of high and unpredictable impact fees by ensuring that developers are informed of their fee obligations early in the project planning process.",
     "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB1820",
@@ -561,5 +561,84 @@
     "tags": [
       "fee transparency"
     ]
-  }
+  },
+    {
+      "id": "HB1291",
+      "memTitle": "Allow up to 2 ADUs by right and liberalize some rules",
+      "formalTitle": "An act relative to accessory dwelling unit uses allowed by right.",
+      "summary": "Amends the state's accessory dwelling unit (ADU) law to allow 2 ADUs by right on lots with single-family homes, up from the current 1 by right. Defines attached and detached ADUs. Allows municipalities to require additional ADUs beyond the first to be attached. Removes some restrictions on ADU placement, ingress/egress, parking requirements, aesthetic standards, and minimum sizes. Allows ADUs to count toward a municipality's workforce housing requirements if they meet certain criteria.",
+      "legislativeTextURI": "https://www.gencourt.state.nh.us/bill_Status/billinfo.aspx?id=1221",
+      "states": [
+        "New Hampshire"
+      ],
+      "statuses": [
+        "Pending"
+      ],
+      "inEffectDate": null,
+      "sponsors": [
+        "Ellen Read"
+      ],
+      "tags": [
+        "ADU"
+      ]
+    },
+    {
+      "id": "HB1399",
+      "memTitle": "Allow up to 2 homes in formerly single-family zones",
+      "formalTitle": "An act allowing municipalities to permit 2 residential units in certain single-family residential zones.",
+      "summary": "Allows single-family homes on lots of 2 acres or less in at least 50% of a municipality's single-family zones to expand to 2 units by right, without discretionary review, if certain conditions are met. These include being outside hazard areas, not demolishing more than 25% of walls (with exceptions), and not eliminating moderate/low-income restricted units. Municipalities can apply objective standards that don't preclude 2 1,250+ sqft units, require septic upgrades and parking, deny projects with specific adverse impacts, and require 30+ day rental terms. Temporary delays allowed for inadequate water/sewer.",
+      "legislativeTextURI": "https://www.gencourt.state.nh.us/bill_Status/billinfo.aspx?id=1756",
+      "states": [
+        "New Hampshire"
+      ],
+      "statuses": [
+        "Pending"
+      ],
+      "inEffectDate": null,
+      "sponsors": [
+        "Rebecca McWilliams"
+      ],
+      "tags": [
+        "duplex",
+        "lot split"
+      ]
+    },
+    {
+      "id": "SB330",
+      "memTitle": "Essentially outlaw downzoning for a decade and curtail some NIMBY delay tactics",
+      "formalTitle": "An act to amend Section 65589.5 of, to amend, repeal, and add Sections 65940, 65943, and 65950 of, to add and repeal Sections 65905.5, 65913.10, and 65941.1 of, and to add and repeal Chapter 12 (commencing with Section 66300) of Division 1 of Title 7 of the Government Code, relating to housing.",
+      "summary": "Aims to accelerate housing production across the state by imposing restrictions on local jurisdictions' ability to downzone or cap the number of housing permits. The Act prohibits local agencies from disapproving housing development projects that comply with current zoning rules unless specific findings are provided. It further aims to streamline the housing approval process by limiting the number of public hearings on projects and by suspending local practices that directly or indirectly inhibit the feasibility of housing projects compliant with existing zoning and planning standards. This Act is part of broader efforts to address California's housing shortage and affordability crisis by facilitating the development of more housing units, including low-, moderate-, and high-income housing.",
+      "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201920200SB330",
+      "states": [
+        "California"
+      ],
+      "statuses": [
+        "Enacted"
+      ],
+      "inEffectDate": "2019-10-09",
+      "sponsors": [
+        "Nancy Skinner"
+      ]
+    },
+    {
+      "id": "SB 102",
+      "memTitle": "The 'Live Local Act': funds affordable housing & preempts many local restrictions",
+      "formalTitle": "An act relating to housing; providing a short title; amending various sections to enhance affordable housing provisions, remove rent controls, and implement tax exemptions for affordable housing.",
+      "summary": "This legislative act, known as the 'Live Local Act', aims to address affordable housing issues by making several amendments. It removes the authority of local governments to impose rent controls, modifies requirements for land use plans, expedites the process for surplusing government lands for affordable housing, and introduces tax exemptions for lands used for affordable housing. The act also revises the state housing strategy and encourages the development of affordable housing through public infrastructure projects.",
+      "legislativeTextURI": "https://www.flsenate.gov/Session/Bill/2023/102",
+      "states": [
+        "Florida"
+      ],
+      "statuses": [
+        "Enacted"
+      ],
+      "inEffectDate": "2023-10-01",
+      "sponsors": [
+        "Alexis Calatayud"
+      ],
+      "tags": [
+        "rent control"
+      ]
+    }
+
 ]
