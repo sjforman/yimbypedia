@@ -12,23 +12,40 @@
         </div>
     </a>
     
-
     <div class="my-8">
         <h2 class="text-3xl font-bold mb-4 text-center">Statuses</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-3 gap-6">
-            {{ range $status, $pages := .Site.Taxonomies.statuses }}
-            <a href="{{ printf "/statuses/%s/" $status | relLangURL }}" class="block p-4 bg-white rounded-lg shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl">
+            <!-- Manually order the statuses -->
+            {{ $pending := index .Site.Taxonomies.statuses "pending" }}
+            {{ $enacted := index .Site.Taxonomies.statuses "enacted" }}
+            {{ $failed := index .Site.Taxonomies.statuses "failed" }}
+            
+            <!-- Pending -->
+            {{ if $pending }}
+            <a href="{{ printf "/statuses/pending/" | relLangURL }}" class="block p-4 bg-white rounded-lg shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl">
                 <div class="text-center">
-                    <h3 class="text-2xl font-bold mb-2">
-                        {{ if eq $status "pending" }}<span class="text-2xl mr-2">🕒</span>
-                        {{ else if eq $status "enacted" }}<span class="text-2xl mr-2">✅</span>
-                        {{ else if eq $status "failed" }}<span class="text-2xl mr-2">❌</span>
-                        {{ end }}
-                        {{ $status | replaceRE "-" " " | title }}
-                    </h3>
-                    <div class="text-lg font-semibold">
-                        {{ len $pages }}
-                    </div>
+                    <h3 class="text-2xl font-bold mb-2"><span class="text-2xl mr-2">🕒</span>Pending</h3>
+                    <div class="text-lg font-semibold">{{ len $pending }}</div>
+                </div>
+            </a>
+            {{ end }}
+            
+            <!-- Enacted -->
+            {{ if $enacted }}
+            <a href="{{ printf "/statuses/enacted/" | relLangURL }}" class="block p-4 bg-white rounded-lg shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl">
+                <div class="text-center">
+                    <h3 class="text-2xl font-bold mb-2"><span class="text-2xl mr-2">✅</span>Enacted</h3>
+                    <div class="text-lg font-semibold">{{ len $enacted }}</div>
+                </div>
+            </a>
+            {{ end }}
+            
+            <!-- Failed -->
+            {{ if $failed }}
+            <a href="{{ printf "/statuses/failed/" | relLangURL }}" class="block p-4 bg-white rounded-lg shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl">
+                <div class="text-center">
+                    <h3 class="text-2xl font-bold mb-2"><span class="text-2xl mr-2">❌</span>Failed</h3>
+                    <div class="text-lg font-semibold">{{ len $failed }}</div>
                 </div>
             </a>
             {{ end }}
@@ -42,7 +59,7 @@
             <a href="{{ printf "/states/%s/" $key | relLangURL }}" class="block p-4 bg-white rounded-lg shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl">
                 <div class="text-center">
                     <h3 class="text-2xl font-bold mb-2">
-                        {{ $key | humanize }}
+                        {{ $key | replaceRE "-" " " | title }}
                     </h3>
                     <div class="text-lg font-semibold mb-2">
                         {{ len $value }}

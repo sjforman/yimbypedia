@@ -624,7 +624,7 @@
       "id": "SB 102",
       "memTitle": "The 'Live Local Act': funds affordable housing & preempts many local restrictions",
       "formalTitle": "An act relating to housing; providing a short title; amending various sections to enhance affordable housing provisions, remove rent controls, and implement tax exemptions for affordable housing.",
-      "summary": "This legislative act, known as the 'Live Local Act', aims to address affordable housing issues by making several amendments. It removes the authority of local governments to impose rent controls, modifies requirements for land use plans, expedites the process for surplusing government lands for affordable housing, and introduces tax exemptions for lands used for affordable housing. The act also revises the state housing strategy and encourages the development of affordable housing through public infrastructure projects.",
+      "summary": "Aims to address affordable housing issues by removing the authority of local governments to impose rent controls, modifying requirements for land use plans, expediting the process for surplusing government lands for affordable housing, and introducing tax exemptions for lands used for affordable housing. Revises the state housing strategy and encourages the development of affordable housing through public infrastructure projects.",
       "legislativeTextURI": "https://www.flsenate.gov/Session/Bill/2023/102",
       "states": [
         "Florida"
@@ -637,8 +637,47 @@
         "Alexis Calatayud"
       ],
       "tags": [
-        "rent control"
+        "rent control", "affordable housing", "tax exemption", "zoning reform"
+      ]
+    },
+    {
+      "id": "S100",
+      "memTitle": "Sweeping reforms to allow more housing density and diversity",
+      "formalTitle": "Act Relating to Housing Opportunities Made for Everyone (HOME)",
+      "summary": "Makes adjustments to municipal planning and zoning to favor higher density and diverse housing types like duplexes and multi-unit dwellings, particularly in areas served by municipal sewer and water services. Restricts excessive parking requirements, mandates acceptance of duplexes in single-family zones, eases the creation of accessory dwelling units (ADUs), and adjusts Act 250's jurisdictional threshold to facilitate more housing developments. Addresses deed restrictions, enhances compliance with energy standards, and establishes various committees and task forces to support ongoing housing development and improvement efforts.",
+      "legislativeTextURI": "https://legislature.vermont.gov/bill/status/2024/S.100",
+      "states": [
+        "Vermont"
+      ],
+      "statuses": [
+        "Enacted"
+      ],
+      "inEffectDate": "2023-06-05",
+      "sponsors": [
+        ""
+      ],
+      "tags": [
+        "zoning reform",
+        "ADU",
+        "parking requirements"
+      ]
+    },
+    {
+      "id": "HB14",
+      "memTitle": "Streamline property development with third-party reviews",
+      "formalTitle": "Relating to third-party review of plats and property development plans, permits, and similar documents, and the inspection of an improvement related to such a document.",
+      "summary": "Introduces a new section, 250.014, to Chapter 250 of the Local Government Code, aimed at expediting the approval process for property development in Texas. It allows for third-party review of development documents and permits if regulatory approvals are delayed beyond 15 days. The act specifies the criteria for third-party reviewers and inspectors, prohibits additional fees for third-party services, outlines the requirements for review or inspection, and sets an appeals process for applicants. Aims to streamline property development by reducing bureaucratic delays.",
+      "legislativeTextURI": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&Bill=HB14",
+      "states": [
+        "Texas"
+      ],
+      "statuses": [
+        "Enacted"
+      ],
+      "inEffectDate": "2023-09-01",
+      "sponsors": ["Cody Harris", "Steve Toth"],
+      "tags": [
+        "permitting"
       ]
     }
-
 ]
