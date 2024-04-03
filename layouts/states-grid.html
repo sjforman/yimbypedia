@@ -1,0 +1,22 @@
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    {{ range $key, $value := .Site.Taxonomies.states }}
+    <div class="p-4 bg-white rounded-lg shadow-md">
+        <h3 class="text-2xl font-bold mb-2 text-center">
+            <a href="{{ printf "/states/%s/" $key | relLangURL }}" class="text-blue-500 hover:text-blue-700 transition duration-150 ease-in-out">
+                {{ $key | humanize }} ({{ len $value }})
+            </a>
+        </h3>
+        <ul class="list-disc pl-5">
+            <li>
+                Pending: {{ len (where $value ".Params.statuses" "intersect" (slice "Pending")) }}
+            </li>
+            <li>
+                Enacted: {{ len (where $value ".Params.statuses" "intersect" (slice "Enacted")) }}
+            </li>
+            <li>
+                Failed: {{ len (where $value ".Params.statuses" "intersect" (slice "Failed")) }}
+            </li>
+        </ul>
+    </div>
+    {{ end }}
+</div>

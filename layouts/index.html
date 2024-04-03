@@ -2,48 +2,58 @@
 {{ partial "header.html" . }}
 
 <main class="max-w-6xl mx-auto px-4 py-8">
-    <div class="text-center mb-12">
-        {{ $allBills := .Site.RegularPages }}
-        <a href="{{ "/bills/" | relLangURL }}" class="text-xl font-bold text-blue-500 hover:text-blue-700 transition duration-150 ease-in-out">
-            Total bills tracked: {{ len $allBills }}
-        </a>
-    </div>
-
-    <div class="my-8">
-        <h2 class="text-3xl font-bold mb-4 text-center">Status: Pending</h2>
-        {{ $pendingPage := .Site.Taxonomies.statuses.pending }}
-        <p class="text-center">
-            There are <span class="font-bold">{{ len $pendingPage }}</span> bills currently pending.
-            <a href="{{ "/statuses/pending/" | relLangURL }}" class="text-blue-500 hover:text-blue-700 transition duration-150 ease-in-out">
-                View all pending bills
+    <div class="grid grid-cols-1 gap-6 mb-12">
+        <div class="p-6 bg-blue-500 text-white rounded-lg shadow-md text-center">
+            {{ $allBills := .Site.RegularPages }}
+            <h2 class="text-3xl font-bold">Total bills tracked: {{ len $allBills }}</h2>
+            <a href="{{ "/bills/" | relLangURL }}" class="text-white hover:text-blue-200 transition duration-150 ease-in-out">
+                View all bills
             </a>
-        </p>
+        </div>
     </div>
 
     <div class="my-8">
-        <h2 class="text-3xl font-bold mb-4 text-center">States Breakdown</h2>
+        <h2 class="text-3xl font-bold mb-4 text-center">Statuses</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            {{ range $key, $value := .Site.Taxonomies.states }}
+            {{ range $status, $pages := .Site.Taxonomies.statuses }}
             <div class="p-4 bg-white rounded-lg shadow-md">
-                <h3 class="text-2xl font-bold mb-2">
-                    <a href="{{ printf "/states/%s/" $key | relLangURL }}" class="text-blue-500 hover:text-blue-700 transition duration-150 ease-in-out">
-                        {{ $key | humanize }} ({{ len $value }})
+                <h3 class="text-2xl font-bold mb-2 text-center">
+                    <a href="{{ printf "/statuses/%s/" $status | relLangURL }}" class="text-blue-500 hover:text-blue-700 transition duration-150 ease-in-out">
+                        {{ $status | humanize }} ({{ len $pages }})
                     </a>
                 </h3>
-                <ul class="list-disc pl-5">
-                    <li>
-                        Pending: {{ len (where $value ".Params.statuses" "intersect" (slice "Pending")) }}
-                    </li>
-                    <li>
-                        Enacted: {{ len (where $value ".Params.statuses" "intersect" (slice "Enacted")) }}
-                    </li>
-                    <li>
-                        Failed: {{ len (where $value ".Params.statuses" "intersect" (slice "Failed")) }}
-                    </li>
-                </ul>
             </div>
             {{ end }}
         </div>
+    </div>
+
+    <div class="my-8">
+        <h2 class="text-3xl font-bold mb-4 text-center">States</h2>
+        {{ template "states-grid.html" . }}
+    </div>
+
+    <div class="my-8">
+        <h2 class="text-3xl font-bold mb-4 text-center">Tags</h2>
+        <div class="flex flex-wrap justify-center gap-4">
+            {{ range $tag, $pages := .Site.Taxonomies.tags }}
+            <a href="{{ printf "/tags/%s/" $tag | relLangURL }}" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-2 px-4 rounded shadow">
+                {{ $tag | humanize }} ({{ len $pages }})
+            </a>
+            {{ end }}
+        </div>
+    </div>
+
+    <div class="my-8">
+        <h2 class="text-3xl font-bold mb-4 text-center">Sponsors</h2>
+        <ul class="list-none text-center">
+            {{ range $sponsor, $pages := .Site.Taxonomies.sponsors }}
+            <li class="inline-block">
+                <a href="{{ printf "/sponsors/%s/" $sponsor | relLangURL }}" class="text-blue-500 hover:text-blue-700 transition duration-150 ease-in-out">
+                    {{ $sponsor | humanize }}
+                </a>,
+            </li>
+            {{ end }}
+        </ul>
     </div>
 </main>
 
