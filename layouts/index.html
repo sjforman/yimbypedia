@@ -3,15 +3,15 @@
 
 <main class="max-w-6xl mx-auto px-4 py-8">
 
-    <div class="grid grid-cols-1 gap-6 mb-12">
-        <div class="p-6 bg-blue-500 text-white rounded-lg shadow-md text-center">
-            {{ $allBills := .Site.RegularPages }}
-            <h2 class="text-3xl font-bold">Total bills tracked: {{ len $allBills }}</h2>
-            <a href="{{ "/bills/" | relLangURL }}" class="text-white hover:text-blue-200 transition duration-150 ease-in-out">
-                View all bills
-            </a>
+    <a href="{{ "/bills/" | relLangURL }}">
+        <div class="grid grid-cols-1 gap-6 mb-12">
+            <div class="p-6 bg-blue-500 text-white rounded-lg shadow-md text-center shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl">
+                {{ $allBills := .Site.RegularPages }}
+                <h2 class="text-3xl font-bold">Total bills tracked: {{ len $allBills }}</h2>
+            </div>
         </div>
-    </div>
+    </a>
+    
 
     <div class="my-8">
         <h2 class="text-3xl font-bold mb-4 text-center">Statuses</h2>
