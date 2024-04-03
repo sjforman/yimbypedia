@@ -3,6 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YIMBYpedia | {{ .Params.id }}</title>
+    <title>
+        {{ if .IsHome }}YIMBYpedia | Home
+        {{ else }}
+        {{ with .Params.id }}
+        YIMBYpedia | {{ . }}
+        {{ else }}
+        YIMBYpedia | {{ .Title }}
+        {{ end }}
+        {{ end }}
+    </title>
     <link rel="stylesheet" href="/css/index.css">
 </head>
