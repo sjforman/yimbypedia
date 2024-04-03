@@ -374,6 +374,192 @@
     "sponsors": [
       "Nancy Skinner"
     ]
+  },
+  {
+    "id": "SB1210",
+    "memTitle": "Try to ease the pain of utility connection charges for new housing",
+    "formalTitle": "An act to add Chapter 8 (commencing with Section 8395) to Division 4.1 of the Public Utilities Code, relating to utility service.",
+    "summary": "Prohibits connection, capacity, or other point of connection charges from public utilities or special districts for electrical, gas, sewer, or water service for new housing construction from exceeding 1% of the reported building permit value of the housing unit. Requires these charges to be issued over a period of at least 10 years from when the housing unit is first occupied, with subsequent owners continuing payment if sold within that period. Mandates public utilities and special districts to prioritize new housing construction for electrical, gas, sewer, and water service connections over other structures. Additionally, requires public reporting on the internet of any charges issued by the housing unit’s address annually.",
+    "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB1210",
+    "states": [
+      "California"
+    ],
+    "statuses": [
+      "Pending"
+    ],
+    "inEffectDate": null,
+    "sponsors": [
+      "Nancy Skinner"
+    ]
+  },
+  {
+    "id": "SB1470",
+    "memTitle": "Take some steps to rationalize our fucked up construction defect legal regime",
+    "formalTitle": "An act to amend Sections 895, 896, 897, 916, 921, 926, 927, 933, 934, and 945.5 of the Civil Code, relating to construction defects.",
+    "summary": "Amends existing laws to modify the standards for determining liability in construction defect cases for residential units. It clarifies that a deficiency must materially affect habitability or usefulness, and result from failing to meet the industry's standard of care. The bill introduces a role for a special inspector in overseeing repair works and requires the builder to secure a building permit for such repairs. It also allows builders to obtain a release or waiver upon repair completion and mandates local authorities to issue building permits within 30 days. Moreover, it adds to the affirmative defenses available to builders in construction defect cases, including compliance with building permits and special inspector approval.",
+    "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB1470",
+    "states": [
+      "California"
+    ],
+    "statuses": [
+      "Pending"
+    ],
+    "inEffectDate": null,
+    "sponsors": [
+      "Steve Glazer"
+    ],
+    "tags": [
+      "condo"
+    ]
+  },
+  {
+    "id": "SB1462",
+    "memTitle": "Encourage condo construction by allowing escrow funds to be used for construction",
+    "formalTitle": "An act to add Sections 11013.7 and 11013.8 to the Business and Professions Code, relating to subdivisions.",
+    "summary": "Allows for the early disbursement of a purchaser's deposit held in escrow for lots or parcels within a subdivision to cover project construction costs, including various fees and expenses associated with the project's development. Specifies conditions under which these funds can be released prior to closing, including requirements for project budget submission, recording of the project's declaration and bylaws, and proof of sufficient funds to complete the project. Additionally, mandates the Department of Real Estate to complete reviews within 30 days regarding the disbursement of these funds and requires developers to prominently display notices in their public reports if purchaser's deposits will be disbursed before closing.",
+    "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB1462",
+    "states": [
+      "California"
+    ],
+    "statuses": [
+      "Pending"
+    ],
+    "inEffectDate": null,
+    "sponsors": [
+      "Steve Glazer"
+    ],
+    "tags": [
+      "condo"
+    ]
+  },
+  {
+    "id": "AB2144",
+    "memTitle": "Quit fucking around and comply with the fee transparency requirements we mandated in 2019",
+    "formalTitle": "An act to amend Section 65400 of the Government Code, relating to housing.",
+    "summary": "Amends the Government Code to require city or county planning agencies to include evidence of compliance with internet website requirements in their annual housing data report. These requirements pertain to maintaining current schedules of fees, exactions, affordability requirements, zoning ordinances, development standards, and annual fee reports on the city's or county's website, among other provisions. The amendment aims to ensure transparency and accessibility of housing-related information.",
+    "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB2144",
+    "states": [
+      "California"
+    ],
+    "statuses": [
+      "Pending"
+    ],
+    "inEffectDate": null,
+    "sponsors": [
+      "Tim Grayson"
+    ],
+    "tags": [
+      "fee transparency"
+    ],
+    "relatedBills": [
+      "AB1483"
+    ]
+  },
+  {
+    "id": "AB1483",
+    "memTitle": "Make the fees charged for new housing development visible and legible",
+    "formalTitle": "An act to add Section 65940.1 to the Government Code and to amend Section 50452 of the Health and Safety Code, relating to housing.",
+    "summary": "Mandates cities, counties, and special districts to maintain an up-to-date schedule of fees, exactions, and affordability requirements, among other housing development-related information, on their websites. Aims to enhance housing data collection and reporting, facilitating the availability and transparency of housing data to support enforcement of housing laws and inform state housing policymaking. Also requires the inclusion of a 10-year housing data strategy in revisions of the California Statewide Housing Plan, involving a comprehensive evaluation of data needs and strategies for achieving consistency in housing data terminology and reporting across the state.",
+    "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201920200AB1483",
+    "states": [
+      "California"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "inEffectDate": "2019-10-09",
+    "sponsors": [
+      "Tim Grayson"
+    ],
+    "tags": [
+      "fee transparency"
+    ],
+    "relatedBills": [
+      "AB2144"
+    ]
+  },
+  {
+    "id": "SB450",
+    "memTitle": "Lot splits are allowed; stop killing them with NIMBY nonsense",
+    "formalTitle": "An act to amend Sections 65585, 65852.21, and 66411.7 of the Government Code, relating to land use.",
+    "summary": "Aims to reinforce SB 9 by removing local obstructions to housing development. Eliminates the restriction against demolishing more than 25% of existing exterior structural walls for ministerial approval of housing projects. Prohibits local agencies from imposing non-uniform objective zoning, subdivision, or design standards that effectively block SB 9 projects. Mandates a 60-day timeframe for local agencies to approve or deny SB 9 applications, with automatic approval thereafter. Provides the Department of Housing and Community Development (HCD) with oversight and enforcement authority to ensure compliance.",
+    "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB450",
+    "states": [
+      "California"
+    ],
+    "statuses": [
+      "Pending"
+    ],
+    "inEffectDate": null,
+    "sponsors": [
+      "Toni Atkins"
+    ],
+    "tags": [
+      "whack-a-mole"
+    ],
+    "relatedBills": [
+      "SB9"
+    ]
+  },
+  {
+    "id": "AB3057",
+    "memTitle": "Junior ADUs should get the same CEQA exemption as ADUs",
+    "formalTitle": "An act to amend Section 21080.17 of the Public Resources Code, relating to environmental quality.",
+    "summary": "AB 3057 rectifies a legislative oversight by extending the existing California Environmental Quality Act (CEQA) exemption, which currently applies to standard Accessory Dwelling Unit (ADU) ordinances, to include Junior Accessory Dwelling Units (JADUs). This amendment facilitates local compliance with state housing laws by exempting JADU ordinances from CEQA review, mirroring the treatment for standard ADUs. The change aims to streamline the process for creating small, affordable rental units within the existing footprint of homes, supporting California's broader efforts to increase housing stock and affordability.",
+    "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB3057",
+    "states": [
+      "California"
+    ],
+    "statuses": [
+      "Pending"
+    ],
+    "inEffectDate": null,
+    "sponsors": [
+      "Lori D. Wilson"
+    ],
+    "tags": [
+      "ADU"
+    ]
+  },
+  {
+    "id": "AB2580",
+    "memTitle": "Sneaky abuse of historic preservation to kill housing must at least be disclosed",
+    "formalTitle": "An act to amend Sections 65400 and 65583 of the Government Code, relating to historical resources.",
+    "summary": "Mandates cities and counties to consider housing needs when designating historic districts or buildings, requiring them to report these designations and their impacts on housing to the California Department of Housing and Community Development (HCD) as part of their Annual Progress Report for the Regional Housing Needs Assessment. Aims to ensure local governments harmonize historic preservation efforts with the urgency to address California’s housing shortage, promoting a more balanced approach to maintaining heritage while facilitating residential development.",
+    "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB2580",
+    "states": [
+      "California"
+    ],
+    "statuses": [
+      "Pending"
+    ],
+    "inEffectDate": null,
+    "sponsors": [
+      "Buffy Wicks"
+    ],
+    "tags": [
+      "historic preservation",
+      "whack-a-mole"
+    ]
+  },
+  {
+    "id": "AB1820",
+    "memTitle": "Mandating upfront clarity on housing development fees",
+    "formalTitle": "An act to amend Sections 65940.1 and 65941.1 of and to add Section 65943.1 to the Government Code relating to housing.",
+    "summary": "Requires cities to provide an estimate of development fees at the time of building permit application, promoting fee transparency and predictability for housing projects. AB 1820 ensures that builders have a clear understanding of the financial requirements from the outset, aiming to reduce unexpected costs that can delay or jeopardize housing developments. The legislation mandates that an itemized list and total sum of all fees and exactions be provided within 10 days of a preliminary application, and again upon final approval of a housing development project. It addresses the issue of high and unpredictable impact fees by ensuring that developers are informed of their fee obligations early in the project planning process.",
+    "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB1820",
+    "states": [
+      "California"
+    ],
+    "statuses": [
+      "Pending"
+    ],
+    "inEffectDate": null,
+    "sponsors": [
+      "Pilar Schiavo"
+    ],
+    "tags": [
+      "fee transparency"
+    ]
   }
-
 ]
