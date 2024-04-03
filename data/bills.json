@@ -562,122 +562,207 @@
       "fee transparency"
     ]
   },
-    {
-      "id": "HB1291",
-      "memTitle": "Allow up to 2 ADUs by right and liberalize some rules",
-      "formalTitle": "An act relative to accessory dwelling unit uses allowed by right.",
-      "summary": "Amends the state's accessory dwelling unit (ADU) law to allow 2 ADUs by right on lots with single-family homes, up from the current 1 by right. Defines attached and detached ADUs. Allows municipalities to require additional ADUs beyond the first to be attached. Removes some restrictions on ADU placement, ingress/egress, parking requirements, aesthetic standards, and minimum sizes. Allows ADUs to count toward a municipality's workforce housing requirements if they meet certain criteria.",
-      "legislativeTextURI": "https://www.gencourt.state.nh.us/bill_Status/billinfo.aspx?id=1221",
-      "states": [
-        "New Hampshire"
-      ],
-      "statuses": [
-        "Pending"
-      ],
-      "inEffectDate": null,
-      "sponsors": [
-        "Ellen Read"
-      ],
-      "tags": [
-        "ADU"
-      ]
-    },
-    {
-      "id": "HB1399",
-      "memTitle": "Allow up to 2 homes in formerly single-family zones",
-      "formalTitle": "An act allowing municipalities to permit 2 residential units in certain single-family residential zones.",
-      "summary": "Allows single-family homes on lots of 2 acres or less in at least 50% of a municipality's single-family zones to expand to 2 units by right, without discretionary review, if certain conditions are met. These include being outside hazard areas, not demolishing more than 25% of walls (with exceptions), and not eliminating moderate/low-income restricted units. Municipalities can apply objective standards that don't preclude 2 1,250+ sqft units, require septic upgrades and parking, deny projects with specific adverse impacts, and require 30+ day rental terms. Temporary delays allowed for inadequate water/sewer.",
-      "legislativeTextURI": "https://www.gencourt.state.nh.us/bill_Status/billinfo.aspx?id=1756",
-      "states": [
-        "New Hampshire"
-      ],
-      "statuses": [
-        "Pending"
-      ],
-      "inEffectDate": null,
-      "sponsors": [
-        "Rebecca McWilliams"
-      ],
-      "tags": [
-        "duplex",
-        "lot split"
-      ]
-    },
-    {
-      "id": "SB330",
-      "memTitle": "Essentially outlaw downzoning for a decade and curtail some NIMBY delay tactics",
-      "formalTitle": "An act to amend Section 65589.5 of, to amend, repeal, and add Sections 65940, 65943, and 65950 of, to add and repeal Sections 65905.5, 65913.10, and 65941.1 of, and to add and repeal Chapter 12 (commencing with Section 66300) of Division 1 of Title 7 of the Government Code, relating to housing.",
-      "summary": "Aims to accelerate housing production across the state by imposing restrictions on local jurisdictions' ability to downzone or cap the number of housing permits. The Act prohibits local agencies from disapproving housing development projects that comply with current zoning rules unless specific findings are provided. It further aims to streamline the housing approval process by limiting the number of public hearings on projects and by suspending local practices that directly or indirectly inhibit the feasibility of housing projects compliant with existing zoning and planning standards. This Act is part of broader efforts to address California's housing shortage and affordability crisis by facilitating the development of more housing units, including low-, moderate-, and high-income housing.",
-      "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201920200SB330",
-      "states": [
-        "California"
-      ],
-      "statuses": [
-        "Enacted"
-      ],
-      "inEffectDate": "2019-10-09",
-      "sponsors": [
-        "Nancy Skinner"
-      ]
-    },
-    {
-      "id": "SB 102",
-      "memTitle": "The 'Live Local Act': funds affordable housing & preempts many local restrictions",
-      "formalTitle": "An act relating to housing; providing a short title; amending various sections to enhance affordable housing provisions, remove rent controls, and implement tax exemptions for affordable housing.",
-      "summary": "Aims to address affordable housing issues by removing the authority of local governments to impose rent controls, modifying requirements for land use plans, expediting the process for surplusing government lands for affordable housing, and introducing tax exemptions for lands used for affordable housing. Revises the state housing strategy and encourages the development of affordable housing through public infrastructure projects.",
-      "legislativeTextURI": "https://www.flsenate.gov/Session/Bill/2023/102",
-      "states": [
-        "Florida"
-      ],
-      "statuses": [
-        "Enacted"
-      ],
-      "inEffectDate": "2023-10-01",
-      "sponsors": [
-        "Alexis Calatayud"
-      ],
-      "tags": [
-        "rent control", "affordable housing", "tax exemption", "zoning reform"
-      ]
-    },
-    {
-      "id": "S100",
-      "memTitle": "Sweeping reforms to allow more housing density and diversity",
-      "formalTitle": "Act Relating to Housing Opportunities Made for Everyone (HOME)",
-      "summary": "Makes adjustments to municipal planning and zoning to favor higher density and diverse housing types like duplexes and multi-unit dwellings, particularly in areas served by municipal sewer and water services. Restricts excessive parking requirements, mandates acceptance of duplexes in single-family zones, eases the creation of accessory dwelling units (ADUs), and adjusts Act 250's jurisdictional threshold to facilitate more housing developments. Addresses deed restrictions, enhances compliance with energy standards, and establishes various committees and task forces to support ongoing housing development and improvement efforts.",
-      "legislativeTextURI": "https://legislature.vermont.gov/bill/status/2024/S.100",
-      "states": [
-        "Vermont"
-      ],
-      "statuses": [
-        "Enacted"
-      ],
-      "inEffectDate": "2023-06-05",
-      "sponsors": [
-        ""
-      ],
-      "tags": [
-        "zoning reform",
-        "ADU",
-        "parking requirements"
-      ]
-    },
-    {
-      "id": "HB14",
-      "memTitle": "Streamline property development with third-party reviews",
-      "formalTitle": "Relating to third-party review of plats and property development plans, permits, and similar documents, and the inspection of an improvement related to such a document.",
-      "summary": "Introduces a new section, 250.014, to Chapter 250 of the Local Government Code, aimed at expediting the approval process for property development in Texas. It allows for third-party review of development documents and permits if regulatory approvals are delayed beyond 15 days. The act specifies the criteria for third-party reviewers and inspectors, prohibits additional fees for third-party services, outlines the requirements for review or inspection, and sets an appeals process for applicants. Aims to streamline property development by reducing bureaucratic delays.",
-      "legislativeTextURI": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&Bill=HB14",
-      "states": [
-        "Texas"
-      ],
-      "statuses": [
-        "Enacted"
-      ],
-      "inEffectDate": "2023-09-01",
-      "sponsors": ["Cody Harris", "Steve Toth"],
-      "tags": [
-        "permitting"
-      ]
-    }
+  {
+    "id": "HB1291",
+    "memTitle": "Allow up to 2 ADUs by right and liberalize some rules",
+    "formalTitle": "An act relative to accessory dwelling unit uses allowed by right.",
+    "summary": "Amends the state's accessory dwelling unit (ADU) law to allow 2 ADUs by right on lots with single-family homes, up from the current 1 by right. Defines attached and detached ADUs. Allows municipalities to require additional ADUs beyond the first to be attached. Removes some restrictions on ADU placement, ingress/egress, parking requirements, aesthetic standards, and minimum sizes. Allows ADUs to count toward a municipality's workforce housing requirements if they meet certain criteria.",
+    "legislativeTextURI": "https://www.gencourt.state.nh.us/bill_Status/billinfo.aspx?id=1221",
+    "states": [
+      "New Hampshire"
+    ],
+    "statuses": [
+      "Pending"
+    ],
+    "inEffectDate": null,
+    "sponsors": [
+      "Ellen Read"
+    ],
+    "tags": [
+      "ADU"
+    ]
+  },
+  {
+    "id": "HB1399",
+    "memTitle": "Allow up to 2 homes in formerly single-family zones",
+    "formalTitle": "An act allowing municipalities to permit 2 residential units in certain single-family residential zones.",
+    "summary": "Allows single-family homes on lots of 2 acres or less in at least 50% of a municipality's single-family zones to expand to 2 units by right, without discretionary review, if certain conditions are met. These include being outside hazard areas, not demolishing more than 25% of walls (with exceptions), and not eliminating moderate/low-income restricted units. Municipalities can apply objective standards that don't preclude 2 1,250+ sqft units, require septic upgrades and parking, deny projects with specific adverse impacts, and require 30+ day rental terms. Temporary delays allowed for inadequate water/sewer.",
+    "legislativeTextURI": "https://www.gencourt.state.nh.us/bill_Status/billinfo.aspx?id=1756",
+    "states": [
+      "New Hampshire"
+    ],
+    "statuses": [
+      "Pending"
+    ],
+    "inEffectDate": null,
+    "sponsors": [
+      "Rebecca McWilliams"
+    ],
+    "tags": [
+      "duplex",
+      "lot split"
+    ]
+  },
+  {
+    "id": "SB330",
+    "memTitle": "Essentially outlaw downzoning for a decade and curtail some NIMBY delay tactics",
+    "formalTitle": "An act to amend Section 65589.5 of, to amend, repeal, and add Sections 65940, 65943, and 65950 of, to add and repeal Sections 65905.5, 65913.10, and 65941.1 of, and to add and repeal Chapter 12 (commencing with Section 66300) of Division 1 of Title 7 of the Government Code, relating to housing.",
+    "summary": "Aims to accelerate housing production across the state by imposing restrictions on local jurisdictions' ability to downzone or cap the number of housing permits. The Act prohibits local agencies from disapproving housing development projects that comply with current zoning rules unless specific findings are provided. It further aims to streamline the housing approval process by limiting the number of public hearings on projects and by suspending local practices that directly or indirectly inhibit the feasibility of housing projects compliant with existing zoning and planning standards. This Act is part of broader efforts to address California's housing shortage and affordability crisis by facilitating the development of more housing units, including low-, moderate-, and high-income housing.",
+    "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201920200SB330",
+    "states": [
+      "California"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "inEffectDate": "2019-10-09",
+    "sponsors": [
+      "Nancy Skinner"
+    ]
+  },
+  {
+    "id": "SB 102",
+    "memTitle": "The 'Live Local Act': funds affordable housing & preempts many local restrictions",
+    "formalTitle": "An act relating to housing; providing a short title; amending various sections to enhance affordable housing provisions, remove rent controls, and implement tax exemptions for affordable housing.",
+    "summary": "Aims to address affordable housing issues by removing the authority of local governments to impose rent controls, modifying requirements for land use plans, expediting the process for surplusing government lands for affordable housing, and introducing tax exemptions for lands used for affordable housing. Revises the state housing strategy and encourages the development of affordable housing through public infrastructure projects.",
+    "legislativeTextURI": "https://www.flsenate.gov/Session/Bill/2023/102",
+    "states": [
+      "Florida"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "inEffectDate": "2023-10-01",
+    "sponsors": [
+      "Alexis Calatayud"
+    ],
+    "tags": [
+      "rent control",
+      "affordable housing",
+      "tax exemption",
+      "zoning reform"
+    ]
+  },
+  {
+    "id": "S100",
+    "memTitle": "Sweeping reforms to allow more housing density and diversity",
+    "formalTitle": "Act Relating to Housing Opportunities Made for Everyone (HOME)",
+    "summary": "Makes adjustments to municipal planning and zoning to favor higher density and diverse housing types like duplexes and multi-unit dwellings, particularly in areas served by municipal sewer and water services. Restricts excessive parking requirements, mandates acceptance of duplexes in single-family zones, eases the creation of accessory dwelling units (ADUs), and adjusts Act 250's jurisdictional threshold to facilitate more housing developments. Addresses deed restrictions, enhances compliance with energy standards, and establishes various committees and task forces to support ongoing housing development and improvement efforts.",
+    "legislativeTextURI": "https://legislature.vermont.gov/bill/status/2024/S.100",
+    "states": [
+      "Vermont"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "inEffectDate": "2023-06-05",
+    "tags": [
+      "zoning reform",
+      "ADU",
+      "parking requirements"
+    ]
+  },
+  {
+    "id": "HB14",
+    "memTitle": "Streamline property development with third-party reviews",
+    "formalTitle": "Relating to third-party review of plats and property development plans, permits, and similar documents, and the inspection of an improvement related to such a document.",
+    "summary": "Introduces a new section, 250.014, to Chapter 250 of the Local Government Code, aimed at expediting the approval process for property development in Texas. It allows for third-party review of development documents and permits if regulatory approvals are delayed beyond 15 days. The act specifies the criteria for third-party reviewers and inspectors, prohibits additional fees for third-party services, outlines the requirements for review or inspection, and sets an appeals process for applicants. Aims to streamline property development by reducing bureaucratic delays.",
+    "legislativeTextURI": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&Bill=HB14",
+    "states": [
+      "Texas"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "inEffectDate": "2023-09-01",
+    "sponsors": [
+      "Cody Harris",
+      "Steve Toth"
+    ],
+    "tags": [
+      "permitting"
+    ]
+  },
+  {
+    "id": "SB323",
+    "memTitle": "Duplex housing must be allowed in cities of more than 5k people.",
+    "formalTitle": "AN ACT GENERALLY REVISING MUNICIPAL ZONING LAWS; REQUIRING CERTAIN CITIES TO ALLOW THE USE OF DUPLEX HOUSING IN ZONING REGULATIONS",
+    "summary": "Revises municipal zoning laws to mandate cities with populations of at least 5,000 to permit duplex housing in areas zoned for single-family residences. It defines duplex housing and family units, aiming to promote urban growth and housing diversity. The act amends sections 76-2-304 and 76-2-309 of the Montana Code Annotated (MCA), establishing guidelines for zoning regulations to meet public health, safety, and general welfare objectives. Effective from January 1, 2024.",
+    "legislativeTextURI": "https://leg.mt.gov/bills/2023/billhtml/SB0323.htm",
+    "states": [
+      "Montana"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "inEffectDate": "2024-01-01",
+    "sponsors": [
+      "Jeremy Trebas"
+    ],
+    "tags": [
+      "zoning reform",
+      "duplex"
+    ]
+  },
+  {
+    "id": "SB406",
+    "memTitle": "Local government building codes can't be more restrictive than the state standard",
+    "formalTitle": "AN ACT PROHIBITING A LOCAL GOVERNMENT FROM ADOPTING BUILDING CODES THAT ARE MORE STRINGENT THAN STATE BUILDING CODES",
+    "summary": "SB0406 amends Section 50-60-301, MCA, preventing local governments in Montana from adopting building codes stricter than state-established ones, except for voluntary energy conservation standards exceeding state requirements if they provide local incentives.",
+    "legislativeTextURI": "https://leg.mt.gov/bills/2023/billhtml/SB0406.htm",
+    "states": [
+      "Montana"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "inEffectDate": "2023-10-01",
+    "sponsors": [
+      "Jeremy Trebas"
+    ],
+    "tags": [
+      "building codes"
+    ]
+  },
+  {
+    "id": "SB382",
+    "memTitle": "A really comprehensive statewide land use planning reform",
+    "formalTitle": "AN ACT CREATING THE MONTANA LAND USE PLANNING ACT",
+    "summary": "Updates outdated zoning and planning statutes from the 1920s. Introduces a unified approach to planning, streamlines permitting processes, and mandates that local governments evaluate and meet housing needs. The bill emphasizes public participation in early planning stages and requires cities to adopt zoning reforms, making housing development faster, cheaper, and more predictable.",
+    "legislativeTextURI": "https://leg.mt.gov/bills/2023/billhtml/SB0382.htm",
+    "states": [
+      "Montana"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "inEffectDate": "2023-05-17",
+    "sponsors": [
+      "Forrest Mandeville"
+    ],
+    "tags": [
+      "zoning reform",
+      "permitting"
+    ]
+  },
+  {
+    "id": "HB2720",
+    "memTitle": "Big cities must allow at least one ADU on single-family lots, and some poison pills are forbidden.",
+    "formalTitle": "AN ACT AMENDING TITLE 9 CHAPTER 4 ARTICLE 6 ARIZONA REVISED STATUTES BY ADDING SECTION 9-461.18; RELATING TO MUNICIPAL PLANNING",
+    "summary": "HB2720 mandates Arizona municipalities with populations over 75,000 to adopt regulations permitting accessory dwelling units (ADUs) on single-family zoned lots. The bill sets allowances and prohibitions for ADUs, such as a minimum of one ADU per lot, additional ADUs if they are restricted-affordable, and a maximum size limit. It prohibits restrictions like additional parking requirements, design conformity mandates, and more restrictive zoning. Failure to adopt regulations by January 1, 2025, allows unlimited ADUs.",
+    "legislativeTextURI": "https://apps.azleg.gov/BillStatus/BillOverview/81315",
+    "states": [
+      "Arizona"
+    ],
+    "statuses": [
+      "Pending"
+    ],
+    "inEffectDate": "2025-01-01",
+    "sponsors": [
+      "Michael Carbone"
+    ],
+    "tags": [
+      "ADU"
+    ]
+  }
 ]

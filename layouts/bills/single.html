@@ -35,6 +35,7 @@
 
         <p class="mb-4"><span class="font-semibold">Summary:</span> {{ .Params.summary }}</p>
 
+        {{ if .Params.sponsors }}
         <p class="mb-4">
             <span class="font-semibold">Main sponsors:</span>
             {{ range $index, $sponsor := .Params.sponsors }}
@@ -43,6 +44,7 @@
             (add $index 1) (len $.Params.sponsors) }}, {{ end }}
             {{ end }}
         </p>
+        {{ end }}
 
         <p class="mb-4">
             <span class="font-semibold">Legislative text:</span>
