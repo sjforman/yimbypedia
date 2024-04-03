@@ -1,22 +1,19 @@
-<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-6">
     {{ range $key, $value := .Site.Taxonomies.states }}
-    <div class="p-4 bg-white rounded-lg shadow-md">
-        <h3 class="text-2xl font-bold mb-2 text-center">
-            <a href="{{ printf "/states/%s/" $key | relLangURL }}" class="text-blue-500 hover:text-blue-700 transition duration-150 ease-in-out">
-                {{ $key | humanize }} ({{ len $value }})
-            </a>
-        </h3>
-        <ul class="list-disc pl-5">
-            <li>
-                Pending: {{ len (where $value ".Params.statuses" "intersect" (slice "Pending")) }}
-            </li>
-            <li>
-                Enacted: {{ len (where $value ".Params.statuses" "intersect" (slice "Enacted")) }}
-            </li>
-            <li>
-                Failed: {{ len (where $value ".Params.statuses" "intersect" (slice "Failed")) }}
-            </li>
-        </ul>
-    </div>
+    <a href="{{ printf "/states/%s/" $key | relLangURL }}" class="block p-4 bg-white rounded-lg shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl">
+        <div class="text-center">
+            <h3 class="text-2xl font-bold mb-2">
+                {{ $key | humanize }}
+            </h3>
+            <div class="text-lg font-semibold mb-2">
+                {{ len $value }}
+            </div>
+            <div class="text-lg">
+                <div>Pending: {{ len (where $value ".Params.statuses" "intersect" (slice "Pending")) }}</div>
+                <div>Enacted: {{ len (where $value ".Params.statuses" "intersect" (slice "Enacted")) }}</div>
+                <div>Failed: {{ len (where $value ".Params.statuses" "intersect" (slice "Failed")) }}</div>
+            </div>
+        </div>
+    </a>
     {{ end }}
 </div>
