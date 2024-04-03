@@ -21,4 +21,5 @@ statuses:
 inEffectDate: '2023-10-11'
 sponsors:
   - Scott Wiener
+statusSort: 1
 ---

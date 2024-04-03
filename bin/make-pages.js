@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const chokidar = require('chokidar');
-const yaml = require('js-yaml'); // Make sure js-yaml is installed
+const yaml = require('js-yaml'); // Ensure js-yaml is installed
 
 function generateMarkdownFiles() {
   // Read the bills data from the JSON file
@@ -15,9 +15,16 @@ function generateMarkdownFiles() {
 
   // Generate Markdown files for each bill
   billsData.forEach(bill => {
+    // Determine the statusSort value based on the bill's status
+    const statusSort = bill.statuses.includes("Pending") ? 0 : (bill.statuses.includes("Enacted") ? 1 : 2); // Added fallback value 2 for any other statuses
+
+    // Add the statusSort field to the bill object
+    bill.statusSort = statusSort;
+
     const billFileName = `${bill.id.toLowerCase()}.md`;
     const billFilePath = path.join(billsDir, billFileName);
-    // Dumping the entire bill object into YAML for the front matter
+    
+    // Dumping the entire bill object, now including statusSort, into YAML for the front matter
     const frontMatter = yaml.dump(bill);
 
     const billContent = `---

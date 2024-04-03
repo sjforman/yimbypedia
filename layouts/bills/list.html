@@ -3,7 +3,7 @@
     {{ partial "header.html" . }}
     <main class="max-w-6xl mx-auto px-4 py-8 flex-1">
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {{ range .Site.RegularPages }}
+            {{ range sort .Site.RegularPages "Params.statusSort" "asc" }}
             <div class="h-full">
                 {{ partial "bill-card-small.html" . }}
             </div>
