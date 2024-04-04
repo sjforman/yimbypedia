@@ -1,12 +1,18 @@
 {{ partial "head.html" . }}
 {{ partial "header.html" . }}
+
 <h1 class="text-4xl font-bold mb-6">{{ .Title }}</h1>
 <ul class="list-disc pl-5">
     {{ range .Pages }}
     <li class="mb-2">
         <a href="{{ .Permalink }}" class="text-blue-500 hover:text-blue-700 transition duration-150 ease-in-out">{{
+
             .Title }}</a>
+
+        <span class="text-gray-500 ml-2">({{ len .Pages }})</span>
+
     </li>
     {{ end }}
 </ul>
+
 {{ partial "footer.html" . }}
