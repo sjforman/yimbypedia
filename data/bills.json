@@ -949,5 +949,137 @@
       "tod",
       "affordable housing"
     ]
+  },
+  {
+    "id": "AB1033",
+    "memTitle": "Allow ADUs and main homes to be sold separately as condos",
+    "formalTitle": "AN ACT TO AMEND SECTIONS 65852.2 AND 65852.26 OF THE GOVERNMENT CODE, RELATING TO HOUSING",
+    "summary": "Authorizes but does not require local agencies to permit the separate sale or conveyance of primary dwelling units and accessory dwelling units (ADUs) as condominiums under specified conditions. Introduces conforming changes to facilitate this process and imposes new duties on local governments regarding ADU approvals.",
+    "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB1033",
+    "states": [
+      "California"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "inEffectDate": "2023-10-11",
+    "sponsors": [
+      "Phil Ting"
+    ],
+    "tags": [
+      "ADU"
+    ],
+    "relatedBills": [
+      "AB976"
+    ]
+  },
+  {
+    "id": "AB976",
+    "memTitle": "End mandatory owner-occupancy for ADUs",
+    "formalTitle": "AN ACT TO AMEND SECTION 65852.2 OF THE GOVERNMENT CODE, RELATING TO LAND USE",
+    "summary": "Prohibits local agencies from imposing an owner-occupancy requirement on any accessory dwelling unit (ADU). Allows for rental terms of 30 days or longer. Makes additional amendments to ADU regulations to align with AB 1033, provided AB 1033 and this bill are both enacted and this bill is enacted last.",
+    "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB976",
+    "states": [
+      "California"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "inEffectDate": "2023-10-11",
+    "sponsors": [
+      "Phil Ting"
+    ],
+    "tags": [
+      "ADU",
+      "Housing",
+      "Owner-Occupancy"
+    ],
+    "relatedBills": [
+      "AB1033"
+    ]
+  },
+  {
+    "id": "AB2221",
+    "memTitle": "Expand ADU flexibility and streamline approvals",
+    "formalTitle": "AN ACT TO REPEAL AND AMEND SECTION 65852.2 OF THE GOVERNMENT CODE, RELATING TO LAND USE",
+    "summary": "Modifies regulations to allow detached accessory dwelling units (ADUs) to include a garage, sets clear approval or denial timelines for ADU applications, and restricts local agencies from imposing certain zoning and lot standards that prevent the construction of at least an 800 square foot ADU. Also prohibits local agencies from denying permits for unpermitted ADUs constructed prior to January 1, 2018, under specified conditions.",
+    "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202120220AB2221",
+    "states": [
+      "California"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "inEffectDate": "2022-09-28",
+    "sponsors": [
+      "Sharon Quirk-Silva"
+    ],
+    "tags": [
+      "ADU",
+      "whack-a-mole"
+    ]
+  },
+  {
+    "id": "SB897",
+    "memTitle": "Eliminate various ADU poison pills, raise height limits, refine junior ADU provisions",
+    "formalTitle": "AN ACT TO AMEND SECTION 65852.22 OF, TO ADD SECTION 65852.23 TO, AND TO REPEAL AND AMEND SECTION 65852.2 OF, THE GOVERNMENT CODE, AND TO AMEND SECTION 17980.12 OF THE HEALTH AND SAFETY CODE, RELATING TO LAND USE",
+    "summary": "Increases the height limits for ADUs near transit or in multi-story buildings to 18 feet, and to 25 feet for attached ADUs. Introduces objective standards for ADU development, prohibits denying ADU permits due to nonconforming conditions not affecting health and safety, and requires simultaneous permit processing for ADUs and primary residences. Allows junior ADUs within single-family residences with various stipulations, including separate entrances and efficiency kitchens.",
+    "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202120220SB897",
+    "states": [
+      "California"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "inEffectDate": "2022-09-28",
+    "sponsors": [
+      "Bob Wieckowski"
+    ],
+    "tags": [
+      "ADU",
+      "whack-a-mole",
+      "objective standards",
+      "permitting"
+    ]
+  },
+  {
+    "id": "AB68",
+    "memTitle": "Streamline approvals for climate-smart housing developments",
+    "formalTitle": "AN ACT TO AMEND SECTION 65585 OF, TO ADD SECTIONS 65040.18, 65914.7.5, AND 66425.5 TO, AND TO ADD CHAPTER 4.3.1 (COMMENCING WITH SECTION 65918.5) TO DIVISION 1 OF TITLE 7 OF, THE GOVERNMENT CODE, RELATING TO LAND USE",
+    "summary": "Mandates streamlined, ministerial approval for housing developments meeting certain criteria, including climate-smart parcel location or inclusion in a region's sustainable communities strategy. Specifies conditions under which local governments cannot increase density or approve subdivisions and utility extensions on climate-resilient lands, barring compliance with specific planning requirements. Introduces obligations for local governments concerning housing element approval, public hearing notices, and finding requirements confirmed by the Office of Planning and Research.",
+    "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB68",
+    "states": [
+      "California"
+    ],
+    "statuses": [
+      "Failed"
+    ],
+    "sponsors": [
+      "Christopher Ward"
+    ],
+    "tags": [
+      "zoning reform",
+      "sprawl control"
+    ]
+  },
+  {
+    "id": "AB881",
+    "memTitle": "Expand options for creating ADUs",
+    "formalTitle": "AN ACT TO AMEND, REPEAL, AND ADD SECTION 65852.2 OF THE GOVERNMENT CODE, RELATING TO HOUSING",
+    "summary": "Revamps regulations for accessory dwelling units (ADUs) by eliminating local standards on lot coverage and minimum lot size, reducing parking and setback requirements, and shortening the approval timeline. Prohibits owner-occupancy requirements until 2025. Establishes a minimum allowable ADU size, promoting the creation of these units to address housing shortages.",
+    "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billVotesClient.xhtml?bill_id=201920200AB881",
+    "states": [
+      "California"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "inEffectDate": "2019-10-09",
+    "sponsors": [
+      "Richard Bloom"
+    ],
+    "tags": [
+      "ADU"
+    ]
   }
 ]
