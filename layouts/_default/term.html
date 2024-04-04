@@ -1,15 +1,51 @@
 {{ partial "head.html" . }}
 {{ partial "header.html" . }}
-<h1 class="text-4xl font-bold mb-6">{{ .Title }}</h1>
-{{ if .Data.Pages }}
-<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-    {{ range sort .Data.Pages "Params.statusSort" "asc"}}
+
+<!-- Group the bills by status -->
+{{ $pending := where .Site.RegularPages "Params.statuses" "intersect" (slice "Pending") }}
+{{ $enacted := where .Site.RegularPages "Params.statuses" "intersect" (slice "Enacted") }}
+{{ $failed := where .Site.RegularPages "Params.statuses" "intersect" (slice "Failed") }}
+
+<!-- Pending Bills -->
+{{ if $pending }}
+<div class="my-4">
+  <h2 class="text-3xl font-bold mb-4">🕒 Pending</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+    {{ range sort $pending "Params.statusSort" "asc" }}
     <div class="h-full">
-        {{ partial "bill-card-small.html" . }}
+      {{ partial "bill-card-small.html" . }}
     </div>
     {{ end }}
+  </div>
 </div>
-{{ else }}
-<p>No content found for this term.</p>
 {{ end }}
+
+<!-- Enacted Bills -->
+{{ if $enacted }}
+<div class="my-12">
+  <h2 class="text-3xl font-bold mb-4">✅ Enacted</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+    {{ range sort $enacted "Params.statusSort" "asc" }}
+    <div class="h-full">
+      {{ partial "bill-card-small.html" . }}
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
+
+<!-- Failed Bills -->
+{{ if $failed }}
+<div class="my-12">
+  <h2 class="text-3xl font-bold mb-4">❌ Failed</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+    {{ range sort $failed "Params.statusSort" "asc" }}
+    <div class="h-full">
+      {{ partial "bill-card-small.html" . }}
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
+
 {{ partial "footer.html" . }}
