@@ -11,4 +11,4 @@ I figured there must exist a database of them all, somewhere. But evidently not.
 
 I've seeded the site with a few dozen individual bills, with an emphasis on ADU legislation. 
 
-But there are hundreds more, and I can't keep track of them all. So contributions are welcome here: [](). Thanks in advance!
+But there are hundreds more, and I can't keep track of them all. So contributions are welcome through [this form](https://forms.gle/gbAsHz34VQiGBz1j6). Thanks in advance!
