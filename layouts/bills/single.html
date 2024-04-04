@@ -63,6 +63,21 @@
             {{ end }}
         </p>
         {{ end }}
+
+        {{ if .Params.tags }}
+        <div class="my-8 flex items-center gap-4">
+            <span class="font-semibold">Tags:</span>
+            <div class="flex flex-wrap gap-4">
+                {{ range .Params.tags }}
+                <a href="{{ printf "/tags/%s/" . | urlize }}" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-1 px-2 rounded shadow">
+                    {{ . }}
+                </a>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+        
+
     </div>
 </div>
 {{ partial "footer.html" . }}

@@ -40,7 +40,7 @@
     ],
     "tags": [
       "universities",
-      "envioronmental quality act"
+      "environmental quality act"
     ]
   },
   {
@@ -102,7 +102,7 @@
       "Scott Wiener"
     ],
     "tags": [
-      "envioronmental quality act",
+      "environmental quality act",
       "affordable housing",
       "tax exemption"
     ]
@@ -147,6 +147,9 @@
       "Javier Mabrey",
       "Tony Exum",
       "Julie Gonzales"
+    ],
+    "tags": [
+      "occupancy limits"
     ]
   },
   {
@@ -167,6 +170,9 @@
       "Steven Woodrow",
       "Kevin Priola",
       "Nick Hinrichsen"
+    ],
+    "tags": [
+      "parking mandates"
     ]
   },
   {
@@ -187,6 +193,9 @@
       "Ron Weinberg",
       "Kyle Mullica",
       "Tony Exum"
+    ],
+    "tags": [
+      "ADU"
     ]
   },
   {
@@ -207,6 +216,10 @@
       "Iman Jodeh",
       "Chris Hansen",
       "Faith Winter"
+    ],
+    "tags": [
+      "zoning reform",
+      "transit oriented development"
     ]
   },
   {
@@ -224,11 +237,15 @@
     "inEffectDate": "2024-07-01",
     "sponsors": [
       "Anna Caballero"
+    ],
+    "tags": [
+      "permitting",
+      "small scale development"
     ]
   },
   {
     "id": "BR996",
-    "memTitle": "Just do a bunch of YIMBY stuff all at once",
+    "memTitle": "Do a bunch of YIMBY zoning reforms all at once",
     "formalTitle": "AN ACT relating to housing opportunities.",
     "summary": "The HOME (Housing Opportunities Made Easier) Act aims to expand housing options in Kentucky. It prohibits minimum square footage requirements and most aesthetic design standards on housing unless necessary for health and safety. It allows duplexes in all single-family zones, triplexes and quadplexes in city single-family zones, and secondary dwelling units and tiny homes on single-family lots. It streamlines permitting and variance processes and limits fees. It allows home occupations and mixed-use in residential and commercial zones, with some restrictions. The bill also prevents most rental restrictions by local governments.",
     "legislativeTextURI": "https://apps.legislature.ky.gov/record/24rs/hb102.html",
@@ -245,11 +262,18 @@
       "Daniel Grossberg",
       "Nancy Tate"
     ],
-    "major": true
+    "major": true,
+    "tags": [
+      "zoning reform",
+      "missing middle",
+      "permitting",
+      "mixed use",
+      "rental restrictions"
+    ]
   },
   {
     "id": "AB1893",
-    "memTitle": "Adding more Accountability to the Housing Accountability Act",
+    "memTitle": "More Accountability for the Housing Accountability Act",
     "formalTitle": "An act to amend Section 65589.5 of the Government Code, relating to land use.",
     "summary": "Amends the Housing Accountability Act to further restrict a local agency's ability to deny or condition housing development projects. It revises the definition of housing for lower/moderate-income households to include projects dedicating at least 10% of units to lower-income households or projects of 10 units or fewer. For agencies without a substantially compliant housing element, it allows project denial only if it exceeds certain density thresholds, fails to meet certain location/site criteria, or fails to comply with objective development standards from the closest multifamily residential zone. It deems projects meeting specified density criteria compliant with ministerial streamlining laws.",
     "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB1893",
@@ -262,6 +286,10 @@
     "inEffectDate": null,
     "sponsors": [
       "Buffy Wicks"
+    ],
+    "tags": [
+      "whack-a-mole",
+      "zoning reform"
     ]
   },
   {
@@ -282,6 +310,10 @@
     ],
     "relatedBills": [
       "SB312"
+    ],
+    "tags": [
+      "universities",
+      "environmental quality act"
     ]
   },
   {
@@ -350,11 +382,16 @@
     ],
     "relatedBills": [
       "SB6"
+    ],
+    "tags": [
+      "affordable housing",
+      "reporting",
+      "ministerial approval"
     ]
   },
   {
     "id": "SB6",
-    "memTitle": "Allow housing in retail- and office-zoned areas, with some strings attached",
+    "memTitle": "Bypass rezoning for housing in retail- and office-zoned areas",
     "formalTitle": "An act to amend Section 65913.4 of, and to add and repeal Section 65852.24 of, the Government Code, relating to land use.",
     "summary": "Deems a housing development project an allowable use on a parcel zoned for office, retail, or parking if it meets certain density requirements and other conditions. Requires such projects to comply with local zoning, parking, design and other ordinances. Limits project site to 20 acres or less in urban areas. Requires relocation assistance for displaced businesses. Allows local agencies to exempt parcels if residential density is reallocated. Does not alter housing, environmental, or labor laws applicable to the project. Sunsets the law on January 1, 2033.",
     "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202120220SB6",
@@ -370,6 +407,9 @@
     ],
     "relatedBills": [
       "AB2011"
+    ],
+    "tags": [
+      "zoning reform"
     ]
   },
   {
@@ -388,7 +428,12 @@
     "sponsors": [
       "Scott Wiener"
     ],
-    "major": true
+    "major": true,
+    "tags": [
+      "zoning reform",
+      "approval process",
+      "transit oriented development"
+    ]
   },
   {
     "id": "SB1211",
@@ -405,6 +450,11 @@
     "inEffectDate": null,
     "sponsors": [
       "Nancy Skinner"
+    ],
+    "tags": [
+      "ADU",
+      "parking mandates",
+      "whack-a-mole"
     ]
   },
   {
@@ -422,11 +472,14 @@
     "inEffectDate": null,
     "sponsors": [
       "Nancy Skinner"
+    ],
+    "tags": [
+      "utility connections"
     ]
   },
   {
     "id": "SB1470",
-    "memTitle": "Take some steps to rationalize our draconian construction defect legal regime",
+    "memTitle": "Start fixing our draconian construction defect legal regime",
     "formalTitle": "An act to amend Sections 895, 896, 897, 916, 921, 926, 927, 933, 934, and 945.5 of the Civil Code, relating to construction defects.",
     "summary": "Amends existing laws to modify the standards for determining liability in construction defect cases for residential units. It clarifies that a deficiency must materially affect habitability or usefulness, and result from failing to meet the industry's standard of care. The bill introduces a role for a special inspector in overseeing repair works and requires the builder to secure a building permit for such repairs. It also allows builders to obtain a release or waiver upon repair completion and mandates local authorities to issue building permits within 30 days. Moreover, it adds to the affirmative defenses available to builders in construction defect cases, including compliance with building permits and special inspector approval.",
     "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB1470",
@@ -441,7 +494,8 @@
       "Steve Glazer"
     ],
     "tags": [
-      "condo"
+      "condo",
+      "construction defect"
     ]
   },
   {
@@ -461,7 +515,7 @@
       "Steve Glazer"
     ],
     "tags": [
-      "condo"
+      "escrow", "development finance"
     ]
   },
   {
@@ -527,7 +581,7 @@
       "Toni Atkins"
     ],
     "tags": [
-      "whack-a-mole"
+      "whack-a-mole", "lot split"
     ],
     "relatedBills": [
       "SB9"
@@ -650,6 +704,9 @@
     "inEffectDate": "2019-10-09",
     "sponsors": [
       "Nancy Skinner"
+    ],
+    "tags": [
+      "zoning reform", "approval process"
     ]
   },
   {
@@ -693,7 +750,8 @@
       "zoning reform",
       "ADU",
       "parking mandates"
-    ]
+    ],
+    "major": true
   },
   {
     "id": "HB14",
@@ -776,7 +834,8 @@
     "tags": [
       "zoning reform",
       "permitting"
-    ]
+    ],
+    "major": true
   },
   {
     "id": "HB2720",
@@ -857,7 +916,8 @@
       "zoning reform",
       "parking mandates",
       "housing goals"
-    ]
+    ],
+    "major": true
   },
   {
     "id": "SB528",
@@ -918,7 +978,8 @@
     "tags": [
       "zoning reform",
       "missing middle"
-    ]
+    ],
+    "major": true
   },
   {
     "id": "SB9",
@@ -958,7 +1019,7 @@
     ],
     "tags": [
       "zoning reform",
-      "tod"
+      "transit oriented development"
     ],
     "major": true
   },
@@ -980,7 +1041,7 @@
     ],
     "tags": [
       "zoning reform",
-      "tod",
+      "transit oriented development",
       "affordable housing"
     ],
     "major": true
@@ -1026,7 +1087,7 @@
     ],
     "tags": [
       "ADU",
-      "owner-occupancy"
+      "owner occupancy"
     ],
     "relatedBills": [
       "AB1033"
@@ -1114,6 +1175,26 @@
     ],
     "tags": [
       "ADU"
+    ]
+  },
+  {
+    "id": "SB1037",
+    "memTitle": "Tighten the reins on local housing plan compliance",
+    "formalTitle": "AN ACT TO AMEND SECTION 65400 OF AND TO ADD SECTION 65009.1 TO THE GOVERNMENT CODE, RELATING TO HOUSING",
+    "summary": "Imposes civil penalties on cities, counties, or local agencies failing to comply with state housing law, including ministerial approval of housing projects and adoption of housing element revisions. Penalties range from $10,000 to $50,000 per month per violation. Funds collected go to the Building Homes and Jobs Trust Fund, earmarked for affordable housing development within the offending jurisdiction. Authorizes fund redirection to statewide affordable housing if not used within five years.",
+    "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240SB1037",
+    "states": [
+      "California"
+    ],
+    "statuses": [
+      "Pending"
+    ],
+    "inEffectDate": "",
+    "sponsors": [
+      "Scott Wiener"
+    ],
+    "tags": [
+      "enforcement"
     ]
   }
 ]
