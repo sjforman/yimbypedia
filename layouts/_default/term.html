@@ -2,9 +2,9 @@
 {{ partial "header.html" . }}
 
 <!-- Group the bills by status -->
-{{ $pending := where .Site.RegularPages "Params.statuses" "intersect" (slice "Pending") }}
-{{ $enacted := where .Site.RegularPages "Params.statuses" "intersect" (slice "Enacted") }}
-{{ $failed := where .Site.RegularPages "Params.statuses" "intersect" (slice "Failed") }}
+{{ $pending := where .Data.Pages "Params.statuses" "intersect" (slice "Pending") }}
+{{ $enacted := where .Data.Pages "Params.statuses" "intersect" (slice "Enacted") }}
+{{ $failed := where .Data.Pages "Params.statuses" "intersect" (slice "Failed") }}
 
 <!-- Pending Bills -->
 {{ if $pending }}

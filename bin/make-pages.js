@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const chokidar = require('chokidar');
-const yaml = require('js-yaml'); // Ensure js-yaml is installed
+const yaml = require('js-yaml');
 
 function generateMarkdownFiles() {
   const billsData = JSON.parse(fs.readFileSync('data/bills.json', 'utf8'));
@@ -23,10 +23,7 @@ function generateMarkdownFiles() {
     const billFileName = `${bill.id.toLowerCase()}.md`;
     const billFilePath = path.join(billsDir, billFileName);
     const frontMatter = yaml.dump(bill);
-
-    const billContent = `---
-${frontMatter}---
-`;
+    const billContent = `---\n${frontMatter}---\n`;
 
     fs.writeFileSync(billFilePath, billContent);
   });

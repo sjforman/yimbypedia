@@ -109,7 +109,7 @@
   },
   {
     "id": "HB24-1007",
-    "memTitle": "Nix the arbitrary occupancy limits, let roommates be roommates.",
+    "memTitle": "Nix arbitrary occupancy limits, let roommates be roommates.",
     "formalTitle": "An act concerning residential occupancy limits.",
     "summary": "The bill, titled the 'HOME (Harmonizing Occupancy Measures Equitably) Act,' prohibits local governments from enacting or enforcing residential occupancy limits based on familial relationships. Local governments retain the authority to implement occupancy limits based only on demonstrated health and safety standards, such as building codes, fire codes, or wastewater and water quality standards, or on affordable housing program guidelines. The bill aims to increase housing availability by limiting the ability of local governments to impose arbitrary occupancy restrictions.",
     "legislativeTextURI": "http://leg.colorado.gov/bills/hb24-1007",
@@ -222,7 +222,8 @@
       "Josh Calloway",
       "Daniel Grossberg",
       "Nancy Tate"
-    ]
+    ],
+    "major": true
   },
   {
     "id": "AB1893",
@@ -356,7 +357,8 @@
     "inEffectDate": null,
     "sponsors": [
       "Scott Wiener"
-    ]
+    ],
+    "major": true
   },
   {
     "id": "SB1211",
@@ -621,7 +623,7 @@
     ]
   },
   {
-    "id": "SB 102",
+    "id": "SB102",
     "memTitle": "The 'Live Local Act': funds affordable housing & preempts many local restrictions",
     "formalTitle": "An act relating to housing; providing a short title; amending various sections to enhance affordable housing provisions, remove rent controls, and implement tax exemptions for affordable housing.",
     "summary": "Aims to address affordable housing issues by removing the authority of local governments to impose rent controls, modifying requirements for land use plans, expediting the process for surplusing government lands for affordable housing, and introducing tax exemptions for lands used for affordable housing. Revises the state housing strategy and encourages the development of affordable housing through public infrastructure projects.",
@@ -641,7 +643,8 @@
       "affordable housing",
       "tax exemption",
       "zoning reform"
-    ]
+    ],
+    "major": true
   },
   {
     "id": "S100",
@@ -926,7 +929,8 @@
     "tags": [
       "zoning reform",
       "tod"
-    ]
+    ],
+    "major": true
   },
   {
     "id": "SB50",
@@ -948,7 +952,8 @@
       "zoning reform",
       "tod",
       "affordable housing"
-    ]
+    ],
+    "major": true
   },
   {
     "id": "AB1033",
@@ -991,8 +996,7 @@
     ],
     "tags": [
       "ADU",
-      "Housing",
-      "Owner-Occupancy"
+      "owner-occupancy"
     ],
     "relatedBills": [
       "AB1033"
@@ -1044,7 +1048,7 @@
   },
   {
     "id": "AB68",
-    "memTitle": "Streamline approvals for climate-smart housing developments",
+    "memTitle": "Streamline approvals for 'climate-smart' housing developments",
     "formalTitle": "AN ACT TO AMEND SECTION 65585 OF, TO ADD SECTIONS 65040.18, 65914.7.5, AND 66425.5 TO, AND TO ADD CHAPTER 4.3.1 (COMMENCING WITH SECTION 65918.5) TO DIVISION 1 OF TITLE 7 OF, THE GOVERNMENT CODE, RELATING TO LAND USE",
     "summary": "Mandates streamlined, ministerial approval for housing developments meeting certain criteria, including climate-smart parcel location or inclusion in a region's sustainable communities strategy. Specifies conditions under which local governments cannot increase density or approve subdivisions and utility extensions on climate-resilient lands, barring compliance with specific planning requirements. Introduces obligations for local governments concerning housing element approval, public hearing notices, and finding requirements confirmed by the Office of Planning and Research.",
     "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB68",
