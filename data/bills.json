@@ -865,5 +865,89 @@
     "tags": [
       "ADU"
     ]
+  },
+  {
+    "id": "E2SHB1110",
+    "memTitle": "Missing middle housing must be allowed in cities",
+    "formalTitle": "AN ACT Relating to creating more homes for Washington by increasing middle housing in areas traditionally dedicated to single-family detached housing; amending RCW 36.70A.030, 36.70A.280, 43.21C.495, and 43.21C.450; adding new sections to chapter 36.70A RCW; adding a new section to chapter 64.34 RCW; adding a new section to chapter 64.32 RCW; adding a new section to chapter 64.38 RCW; adding a new section to chapter 64.90 RCW; and creating new sections.",
+    "summary": "Mandates cities engaged in Growth Management Act (GMA) planning to authorize increased densities for middle housing, defined as housing types like duplexes, triplexes, fourplexes, townhouses, and more, within residential zones. Cities with populations over 25,000 are required to allow at least two to six units per lot, depending on city size and proximity to major transit stops, with additional requirements for affordable housing units.",
+    "legislativeTextURI": "https://app.leg.wa.gov/billsummary?BillNumber=1110&Initiative=false&Year=2023",
+    "states": [
+      "Washington"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "inEffectDate": "2023-07-23",
+    "sponsors": [
+      "Jessica Bateman"
+    ],
+    "tags": [
+      "zoning reform",
+      "missing middle"
+    ]
+  },
+  {
+    "id": "SB9",
+    "memTitle": "Urban lot splits must be allowed; up to 4 homes where there was just one",
+    "formalTitle": "AN ACT to address California's housing crisis by legalizing the construction of middle-income housing and small multi-family housing developments near jobs and transit",
+    "summary": "Mandates ministerial approval for housing developments of no more than 2 units within single-family zones, subject to specific conditions, including prohibitions on demolishing rent-restricted housing, and historic sites. Authorizes local agencies to impose objective standards that do not physically preclude construction of up to 2 units or reduce unit size below 800 square feet. Enables urban lot splits if meeting similar conditions. Exempts these approvals from CEQA. Requires affidavits for owner occupancy of urban lot splits, barring community land trusts or qualified nonprofits.",
+    "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202120220SB9",
+    "states": [
+      "California"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "inEffectDate": "2022-01-01",
+    "sponsors": [
+      "Toni Atkins"
+    ],
+    "tags": [
+      "missing middle",
+      "lot split"
+    ]
+  },
+  {
+    "id": "SB827",
+    "memTitle": "Taller buildings must be allowed near transit",
+    "formalTitle": "PLANNING AND ZONING: TRANSIT-RICH HOUSING BONUS",
+    "summary": "Requires local governments to grant a transit-rich housing bonus for developments near major transit stops or high-quality transit corridors, meeting certain planning standards. This includes adhering to local inclusionary housing ordinances or providing onsite affordable housing, preparing relocation benefits for displaced persons, and complying with zoning and design controls. Developers receiving the bonus must offer monthly transit passes to residents at no cost and adhere to specific height, density, and parking regulations.",
+    "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=201720180SB827",
+    "states": [
+      "California"
+    ],
+    "statuses": [
+      "Failed"
+    ],
+    "sponsors": [
+      "Scott Wiener"
+    ],
+    "tags": [
+      "zoning reform",
+      "tod"
+    ]
+  },
+  {
+    "id": "SB50",
+    "memTitle": "Legalize many more homes near jobs and transit with default zoning",
+    "formalTitle": "PLANNING AND ZONING: HOUSING DEVELOPMENT: STREAMLINED APPROVAL: INCENTIVES",
+    "summary": "Authorizes streamlined, ministerial approval for neighborhood multifamily projects on eligible parcels without conditional use permits. Defines eligible projects and parcels, limits local parking requirements, and sets automatic expiration of approval in 3 years with possible one-year extension. Exempts projects from CEQA. Requires cities, counties, or both to grant an equitable communities incentive for developments meeting specific criteria, including being a job-rich or transit-rich housing project, with additional requirements for developments in counties based on population size. Implements delays for sensitive communities, with certain exemptions for local flexibility plans approved by the Department of Housing and Community Development.",
+    "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201920200SB50",
+    "states": [
+      "California"
+    ],
+    "statuses": [
+      "Failed"
+    ],
+    "inEffectDate": "",
+    "sponsors": [
+      "Scott Wiener"
+    ],
+    "tags": [
+      "zoning reform",
+      "tod",
+      "affordable housing"
+    ]
   }
 ]
