@@ -764,5 +764,106 @@
     "tags": [
       "ADU"
     ]
+  },
+  {
+    "id": "HB166",
+    "memTitle": "ADUs must not be bannable by HOA restrictions",
+    "formalTitle": "AN ACT RELATING TO INTERNAL ACCESSORY DWELLING UNITS; AMENDING CHAPTER 32, TITLE 55, IDAHO CODE",
+    "summary": "Amends Idaho Code to allow the creation of internal accessory dwelling units (ADUs) within homeowner's associations (HOAs) territories, defining permissible restrictions. Establishes that no covenants can outright prohibit internal ADUs within or attached to a primary residence or its garage, provided they are for housing relatives or tenants for periods longer than 30 days. Permits HOAs to impose reasonable regulations concerning these ADUs, such as size and parking requirements, while voiding any restrictive covenants against internal ADUs created after July 1, 2023.",
+    "legislativeTextURI": "https://legislature.idaho.gov/sessioninfo/2023/legislation/h0166/",
+    "states": [
+      "Idaho"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "inEffectDate": "2023-04-03",
+    "tags": [
+      "ADU",
+      "HOA"
+    ]
+  },
+  {
+    "id": "LD1706",
+    "memTitle": "Clarify details of statewide ADU standards, and more time to comply",
+    "formalTitle": "An Act to Clarify Statewide Laws Regarding Affordable Housing and Accessory Dwelling Units",
+    "summary": "Amends Maine's housing laws to extend the implementation dates for affordable housing development requirements and accessory dwelling unit (ADU) permissions across municipalities. It defines 'affordable housing development' with specific income thresholds for rental and owned housing affordability. The act sets new implementation dates: January 1, 2024, for municipalities with ordinance enactment by municipal officers, and July 1, 2024, for others. It mandates municipalities to permit up to two additional dwelling units on lots with existing homes, subject to certain conditions, and ensures long-term affordability of such housing developments through restrictive covenants for a minimum of 30 years. The legislation also specifies zoning and subdivision requirements for ADUs, aiming to facilitate the addition of such units statewide while adhering to local and environmental regulations.",
+    "legislativeTextURI": "https://legislature.maine.gov/LawMakerWeb/summary.asp?ID=280088800",
+    "states": [
+      "Maine"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "inEffectDate": "2023-06-16",
+    "sponsors": [
+      "Marc Malon"
+    ],
+    "tags": [
+      "ADU"
+    ]
+  },
+  {
+    "id": "LD2003",
+    "memTitle": "Set housing goals, impose some density requirements, and legalize ADUs",
+    "formalTitle": "An Act To Implement the Recommendations of the Commission To Increase Housing Opportunities in Maine by Studying Zoning and Land Use Restrictions",
+    "summary": "Enacts measures to increase housing opportunities across Maine by setting statewide and regional housing production goals, in collaboration with the Maine State Housing Authority. It mandates municipalities to permit higher density affordable housing developments, establishing a density minimum of 2.5 times the base density in multifamily dwelling zones, with specific off-street parking space caps. The act requires a 30-year minimum duration for affordable housing developments' restrictive covenants. Dictates municipalities to allow up to four dwelling units per lot in designated growth areas or where municipal services are available, aiming to streamline the approval process for such developments. Allows accessory dwelling units (ADUs) on single-family lots, sets minimum size requirements for ADUs, and mandates municipal compliance with water and wastewater service verification for housing units.",
+    "legislativeTextURI": "https://legislature.maine.gov/LawMakerWeb/summary.asp?ID=280082953",
+    "states": [
+      "Maine"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "inEffectDate": "2022-04-27",
+    "sponsors": [
+      "Ryan Fecteau"
+    ],
+    "tags": [
+      "ADU",
+      "zoning reform",
+      "parking mandates",
+      "housing goals"
+    ]
+  },
+  {
+    "id": "SB528",
+    "memTitle": "At least one ADU must be allowed, and some poison pills are forbidden",
+    "formalTitle": "AN ACT REVISING MUNICIPAL ZONING LAWS TO ALLOW FOR ACCESSORY DWELLING UNITS; REQUIRING MUNICIPALITIES TO ADOPT CERTAIN REGULATIONS IN RELATION TO ACCESSORY DWELLING UNITS; PROHIBITING CERTAIN REGULATIONS IN RELATION TO ACCESSORY DWELLING UNITS; ALLOWING A MUNICIPALITY TO CHARGE A FEE TO REVIEW APPLICATIONS TO CREATE ACCESSORY DWELLING UNITS; AND PROVIDING A DELAYED EFFECTIVE DATE.",
+    "summary": "Revises municipal zoning laws in Montana to support the development of accessory dwelling units (ADUs) by requiring municipalities to permit at least one ADU per lot with a single-family dwelling. It limits ADU size to 75% of the primary residence's gross floor area or 1,000 square feet, whichever is less, and prohibits municipalities from imposing additional parking requirements, matching exterior designs, ownership occupancy requirements, impact fees, and more restrictive development standards than those for the primary dwelling. Municipalities may charge up to $250 for ADU application reviews but cannot enforce non-compliant regulations after January 1, 2024.",
+    "legislativeTextURI": "http://leg.mt.gov/bills/2023/billpdf/SB0528.pdf",
+    "states": [
+      "Montana"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "inEffectDate": "2024-01-01",
+    "sponsors": [
+      "Greg Hertz"
+    ],
+    "tags": [
+      "ADU"
+    ]
+  },
+  {
+    "id": "EHB1337",
+    "memTitle": "ADUs must be allowed, and various poison pills are prohibited",
+    "formalTitle": "AN ACT Relating to expanding housing options by easing barriers to the construction and use of accessory dwelling units; amending RCW 36.70A.696, 43.21C.495, and 36.70A.280; adding new sections to chapter 36.70A RCW; adding a new section to chapter 64.34 RCW; adding a new section to chapter 64.32 RCW; adding a new section to chapter 64.38 RCW; adding a new section to chapter 64.90 RCW; creating a new section; and repealing RCW 35.63.210, 35A.63.230, 36.70A.400, 36.70.677, and 43.63A.215.",
+    "summary": "Facilitates the construction and use of accessory dwelling units (ADUs) within urban growth areas. Mandates cities and counties to adopt or amend regulations to support ADU creation, limiting the imposition of certain restrictions, such as off-street parking requirements within half a mile of major transit stops and imposing maximum gross floor area restrictions of no less than 1,000 square feet for ADUs. Impact fees on ADUs cannot exceed 50% of those for the principal unit, and cities and counties cannot require ADU owners to occupy any unit on the property. This act also prohibits the sale or conveyance restrictions of ADUs as condominium units and exempts ADU-related actions from administrative or judicial appeals.",
+    "legislativeTextURI": "https://app.leg.wa.gov/billsummary?BillNumber=1337&Initiative=false&Year=2023",
+    "states": [
+      "Washington"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "inEffectDate": "2023-07-23",
+    "sponsors": [
+      "Mia Gregerson"
+    ],
+    "tags": [
+      "ADU"
+    ]
   }
 ]
