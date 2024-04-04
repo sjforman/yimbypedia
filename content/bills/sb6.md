@@ -1,6 +1,6 @@
 ---
 id: SB6
-memTitle: Allow housing in retail- and office-zoned areas, with some strings attached
+memTitle: Bypass rezoning for housing in retail- and office-zoned areas
 formalTitle: >-
   An act to amend Section 65913.4 of, and to add and repeal Section 65852.24 of,
   the Government Code, relating to land use.
@@ -24,5 +24,7 @@ sponsors:
   - Anna Caballero
 relatedBills:
   - AB2011
+tags:
+  - zoning reform
 statusSort: 1
 ---

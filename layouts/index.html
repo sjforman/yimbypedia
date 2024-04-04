@@ -1,104 +1,100 @@
 {{ partial "head.html" . }}
 {{ partial "header.html" . }}
 
-<main class="max-w-6xl mx-auto px-4 py-8">
+<a href="{{ "/bills/" | relLangURL }}">
+    <div class="grid grid-cols-1 gap-6 mb-12">
+        <div class="p-6 bg-blue-500 text-white rounded-lg shadow-md text-center shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl">
+            {{ $allBills := .Site.RegularPages }}
+            <h2 class="text-3xl font-bold">Total bills tracked: {{ len $allBills }}</h2>
+        </div>
+    </div>
+</a>
 
-    <a href="{{ "/bills/" | relLangURL }}">
-        <div class="grid grid-cols-1 gap-6 mb-12">
-            <div class="p-6 bg-blue-500 text-white rounded-lg shadow-md text-center shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl">
-                {{ $allBills := .Site.RegularPages }}
-                <h2 class="text-3xl font-bold">Total bills tracked: {{ len $allBills }}</h2>
+<div class="my-8">
+    <h2 class="text-3xl font-bold mb-4 text-center">Statuses</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-3 gap-6">
+        <!-- Manually order the statuses -->
+        {{ $pending := index .Site.Taxonomies.statuses "pending" }}
+        {{ $enacted := index .Site.Taxonomies.statuses "enacted" }}
+        {{ $failed := index .Site.Taxonomies.statuses "failed" }}
+        
+        <!-- Pending -->
+        {{ if $pending }}
+        <a href="{{ printf "/statuses/pending/" | relLangURL }}" class="block p-4 bg-white rounded-lg shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl">
+            <div class="text-center">
+                <h3 class="text-2xl font-bold mb-2"><span class="text-2xl mr-2">🕒</span>Pending</h3>
+                <div class="text-lg font-semibold">{{ len $pending }}</div>
             </div>
-        </div>
-    </a>
-    
-    <div class="my-8">
-        <h2 class="text-3xl font-bold mb-4 text-center">Statuses</h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-3 gap-6">
-            <!-- Manually order the statuses -->
-            {{ $pending := index .Site.Taxonomies.statuses "pending" }}
-            {{ $enacted := index .Site.Taxonomies.statuses "enacted" }}
-            {{ $failed := index .Site.Taxonomies.statuses "failed" }}
-            
-            <!-- Pending -->
-            {{ if $pending }}
-            <a href="{{ printf "/statuses/pending/" | relLangURL }}" class="block p-4 bg-white rounded-lg shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl">
-                <div class="text-center">
-                    <h3 class="text-2xl font-bold mb-2"><span class="text-2xl mr-2">🕒</span>Pending</h3>
-                    <div class="text-lg font-semibold">{{ len $pending }}</div>
+        </a>
+        {{ end }}
+        
+        <!-- Enacted -->
+        {{ if $enacted }}
+        <a href="{{ printf "/statuses/enacted/" | relLangURL }}" class="block p-4 bg-white rounded-lg shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl">
+            <div class="text-center">
+                <h3 class="text-2xl font-bold mb-2"><span class="text-2xl mr-2">✅</span>Enacted</h3>
+                <div class="text-lg font-semibold">{{ len $enacted }}</div>
+            </div>
+        </a>
+        {{ end }}
+        
+        <!-- Failed -->
+        {{ if $failed }}
+        <a href="{{ printf "/statuses/failed/" | relLangURL }}" class="block p-4 bg-white rounded-lg shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl">
+            <div class="text-center">
+                <h3 class="text-2xl font-bold mb-2"><span class="text-2xl mr-2">❌</span>Failed</h3>
+                <div class="text-lg font-semibold">{{ len $failed }}</div>
+            </div>
+        </a>
+        {{ end }}
+    </div>
+</div>
+
+<div class="my-8">
+    <h2 class="text-3xl font-bold mb-4 text-center">States</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-3 gap-6">
+        {{ range $key, $value := .Site.Taxonomies.states }}
+        <a href="{{ printf "/states/%s/" $key | relLangURL }}" class="block p-4 bg-white rounded-lg shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl">
+            <div class="text-center">
+                <h3 class="text-2xl font-bold mb-2">
+                    {{ $key | replaceRE "-" " " | title }}
+                </h3>
+                <div class="text-lg font-semibold mb-2">
+                    {{ len $value }}
                 </div>
-            </a>
-            {{ end }}
-            
-            <!-- Enacted -->
-            {{ if $enacted }}
-            <a href="{{ printf "/statuses/enacted/" | relLangURL }}" class="block p-4 bg-white rounded-lg shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl">
-                <div class="text-center">
-                    <h3 class="text-2xl font-bold mb-2"><span class="text-2xl mr-2">✅</span>Enacted</h3>
-                    <div class="text-lg font-semibold">{{ len $enacted }}</div>
+                <div class="text-lg">
+                    <div>Pending: {{ len (where $value ".Params.statuses" "intersect" (slice "Pending")) }}</div>
+                    <div>Enacted: {{ len (where $value ".Params.statuses" "intersect" (slice "Enacted")) }}</div>
+                    <div>Failed: {{ len (where $value ".Params.statuses" "intersect" (slice "Failed")) }}</div>
                 </div>
-            </a>
-            {{ end }}
-            
-            <!-- Failed -->
-            {{ if $failed }}
-            <a href="{{ printf "/statuses/failed/" | relLangURL }}" class="block p-4 bg-white rounded-lg shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl">
-                <div class="text-center">
-                    <h3 class="text-2xl font-bold mb-2"><span class="text-2xl mr-2">❌</span>Failed</h3>
-                    <div class="text-lg font-semibold">{{ len $failed }}</div>
-                </div>
-            </a>
-            {{ end }}
-        </div>
+            </div>
+        </a>
+        {{ end }}
+    </div>    
+</div>
+
+<div class="my-8">
+    <h2 class="text-3xl font-bold mb-4 text-center">Tags</h2>
+    <div class="flex flex-wrap justify-center gap-4">
+        {{ range $tag, $pages := .Site.Taxonomies.tags }}
+        <a href="{{ printf "/tags/%s/" $tag | relLangURL }}" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-2 px-4 rounded shadow">
+            {{ $tag }} ({{ len $pages }})
+        </a>
+        {{ end }}
+    </div>
+</div>
+
+<div class="my-8">
+    <h2 class="text-3xl font-bold mb-4 text-center">Sponsors</h2>
+    <div class="flex flex-wrap justify-center items-center gap-2">
+        {{ $sponsors := slice }}
+        {{ range $sponsor, $pages := .Site.Taxonomies.sponsors }}
+        {{ $sponsorURL := printf "/sponsors/%s/" ($sponsor | urlize) | relLangURL }}
+        {{ $sponsorTitle := printf "%s (%d)" ($sponsor | replaceRE "-" " " | title) (len $pages) }}
+        {{ $sponsors = $sponsors | append (printf "<a href=\"%s\" class=\"text-blue-500 hover:text-blue-700 transition duration-150 ease-in-out\">%s</a>" $sponsorURL $sponsorTitle) }}
+        {{ end }}
+        {{ delimit $sponsors ", " | safeHTML }}
+    </div>
     </div>
     
-    <div class="my-8">
-        <h2 class="text-3xl font-bold mb-4 text-center">States</h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-3 gap-6">
-            {{ range $key, $value := .Site.Taxonomies.states }}
-            <a href="{{ printf "/states/%s/" $key | relLangURL }}" class="block p-4 bg-white rounded-lg shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl">
-                <div class="text-center">
-                    <h3 class="text-2xl font-bold mb-2">
-                        {{ $key | replaceRE "-" " " | title }}
-                    </h3>
-                    <div class="text-lg font-semibold mb-2">
-                        {{ len $value }}
-                    </div>
-                    <div class="text-lg">
-                        <div>Pending: {{ len (where $value ".Params.statuses" "intersect" (slice "Pending")) }}</div>
-                        <div>Enacted: {{ len (where $value ".Params.statuses" "intersect" (slice "Enacted")) }}</div>
-                        <div>Failed: {{ len (where $value ".Params.statuses" "intersect" (slice "Failed")) }}</div>
-                    </div>
-                </div>
-            </a>
-            {{ end }}
-        </div>    
-    </div>
-
-    <div class="my-8">
-        <h2 class="text-3xl font-bold mb-4 text-center">Tags</h2>
-        <div class="flex flex-wrap justify-center gap-4">
-            {{ range $tag, $pages := .Site.Taxonomies.tags }}
-            <a href="{{ printf "/tags/%s/" $tag | relLangURL }}" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-2 px-4 rounded shadow">
-                {{ $tag }} ({{ len $pages }})
-            </a>
-            {{ end }}
-        </div>
-    </div>
-
-    <div class="my-8">
-        <h2 class="text-3xl font-bold mb-4 text-center">Sponsors</h2>
-        <div class="flex flex-wrap justify-center items-center gap-2">
-          {{ $sponsors := slice }}
-          {{ range $sponsor, $pages := .Site.Taxonomies.sponsors }}
-            {{ $sponsorURL := printf "/sponsors/%s/" ($sponsor | urlize) | relLangURL }}
-            {{ $sponsorTitle := printf "%s (%d)" ($sponsor | replaceRE "-" " " | title) (len $pages) }}
-            {{ $sponsors = $sponsors | append (printf "<a href=\"%s\" class=\"text-blue-500 hover:text-blue-700 transition duration-150 ease-in-out\">%s</a>" $sponsorURL $sponsorTitle) }}
-          {{ end }}
-          {{ delimit $sponsors ", " | safeHTML }}
-        </div>
-      </div>
-    
-</main>
-
 {{ partial "footer.html" . }}
