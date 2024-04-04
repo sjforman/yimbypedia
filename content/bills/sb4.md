@@ -21,5 +21,9 @@ statuses:
 inEffectDate: '2023-10-11'
 sponsors:
   - Scott Wiener
+tags:
+  - universities
+  - yigby
+  - affordable housing
 statusSort: 1
 ---
