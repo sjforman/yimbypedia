@@ -1,30 +1,34 @@
 {{ partial "head.html" . }}
 {{ partial "header.html" . }}
-<div
-    class="bg-white shadow-lg rounded-lg my-4">
+<div class="bg-white shadow-lg rounded-lg my-4">
     <div class="px-6 py-4">
         <h1 class="text-4xl font-bold mb-2">{{ .Params.id }}</h1>
         <h2 class="text-2xl font-semibold text-gray-600 mb-4">{{ .Params.memTitle }}</h2>
 
         <p class="mb-4">
             <span class="font-semibold">State:</span>
-            {{ range .Params.states }} {{ . }} {{ end }}
+            {{ range .Params.states }} 
+                {{ . }}
+            {{ end }}
         </p>
 
         {{ with .Params.statuses }}
         {{ range . }}
         <p class="status mb-4">
             <span class="font-semibold">Status:</span>
-            {{ if eq . "Pending" }}Pending 🕒
-            {{ else if eq . "Enacted" }}Enacted ✅
-            {{ else if eq . "Failed" }}Failed ❌
-            {{ else }}{{ . }}
-            {{ end }}
+                {{ if eq . "Pending" }}Pending 🕒
+                {{ else if eq . "Enacted" }}Enacted ✅
+                {{ else if eq . "Failed" }}Failed ❌
+                {{ else }}{{ . }}
+                {{ end }}
         </p>
         {{ end }}
         {{ end }}
 
-        <p class="mb-4"><span class="font-semibold">Formal Title:</span> {{ .Params.formalTitle }}</p>
+        <p class="mb-4">
+            <span class="font-semibold">Formal Title:</span>
+            {{ .Params.formalTitle }}
+        </p>
 
         {{ if .Params.inEffectDate }}
         <p class="mb-4">
@@ -33,7 +37,10 @@
         </p>
         {{ end }}
 
-        <p class="mb-4"><span class="font-semibold">Summary:</span> {{ .Params.summary }}</p>
+        <p class="mb-4">
+            <span class="font-semibold">Summary:</span>
+            {{ .Params.summary }}
+        </p>
 
         {{ if .Params.sponsors }}
         <p class="mb-4">
@@ -49,7 +56,7 @@
         <p class="mb-4">
             <span class="font-semibold">Legislative text:</span>
             <a href="{{ .Params.legislativeTextURI }}" target="_blank"
-                class="text-blue-500 hover:text-blue-700 transition duration-150 ease-in-out break-words">{{
+                class="text-blue-500 hover:text-blue-700 transition duration-150 ease-in-out">{{
                 .Params.legislativeTextURI }}</a>
         </p>
 
@@ -58,7 +65,7 @@
             <span class="font-semibold">Related bills:</span>
             {{ range $index, $relatedBill := .Params.relatedBills }}
             <a href="/bills/{{ $relatedBill | urlize }}"
-                class="text-blue-500 hover:text-blue-700 transition duration-150 ease-in-out">{{ $relatedBill }}</a>{{
+                class="text-blue-500 hover:text-blue-700 transition duration-150 ease-in-out truncate">{{ $relatedBill }}</a>{{
             if ne (add $index 1) (len $.Params.relatedBills) }}, {{ end }}
             {{ end }}
         </p>
@@ -69,14 +76,14 @@
             <span class="font-semibold">Tags:</span>
             <div class="flex flex-wrap gap-4">
                 {{ range .Params.tags }}
-                <a href="{{ printf "/tags/%s/" . | urlize }}" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-1 px-2 rounded shadow">
+                <a href="{{ printf " /tags/%s/" . | urlize }}"
+                    class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-1 px-2 rounded shadow">
                     {{ . }}
                 </a>
                 {{ end }}
             </div>
         </div>
         {{ end }}
-        
 
     </div>
 </div>
