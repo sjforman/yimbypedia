@@ -20,7 +20,6 @@ states:
   - California
 statuses:
   - Enacted
-inEffectDate: '2022-01-01'
 sponsors:
   - Toni Atkins
 tags:

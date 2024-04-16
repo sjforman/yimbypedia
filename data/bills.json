@@ -11,7 +11,6 @@
     "statuses": [
       "Enacted"
     ],
-    "inEffectDate": "2023-10-11",
     "sponsors": [
       "Scott Wiener"
     ],
@@ -31,7 +30,6 @@
     "statuses": [
       "Pending"
     ],
-    "inEffectDate": null,
     "relatedBills": [
       "SB886"
     ],
@@ -40,7 +38,7 @@
     ],
     "tags": [
       "universities",
-      "environmental quality act"
+      "environmental impact"
     ]
   },
   {
@@ -55,7 +53,6 @@
     "statuses": [
       "Pending"
     ],
-    "inEffectDate": null,
     "sponsors": [
       "Scott Wiener"
     ],
@@ -77,7 +74,6 @@
     "statuses": [
       "Pending"
     ],
-    "inEffectDate": null,
     "sponsors": [
       "Scott Wiener"
     ],
@@ -97,12 +93,11 @@
     "statuses": [
       "Pending"
     ],
-    "inEffectDate": null,
     "sponsors": [
       "Scott Wiener"
     ],
     "tags": [
-      "environmental quality act",
+      "environmental impact",
       "affordable housing",
       "tax exemption"
     ]
@@ -119,7 +114,6 @@
     "statuses": [
       "Enacted"
     ],
-    "inEffectDate": "2023-10-11",
     "sponsors": [
       "Scott Wiener"
     ],
@@ -141,7 +135,6 @@
     "statuses": [
       "Enacted"
     ],
-    "inEffectDate": "2024-04-15",
     "sponsors": [
       "Manny Rutinel",
       "Javier Mabrey",
@@ -164,7 +157,6 @@
     "statuses": [
       "Pending"
     ],
-    "inEffectDate": null,
     "sponsors": [
       "Stephanie Vigil",
       "Steven Woodrow",
@@ -187,7 +179,6 @@
     "statuses": [
       "Pending"
     ],
-    "inEffectDate": null,
     "sponsors": [
       "Judy Amabile",
       "Ron Weinberg",
@@ -210,7 +201,6 @@
     "statuses": [
       "Pending"
     ],
-    "inEffectDate": null,
     "sponsors": [
       "Dylan Woodrow",
       "Iman Jodeh",
@@ -234,7 +224,6 @@
     "statuses": [
       "Enacted"
     ],
-    "inEffectDate": "2024-07-01",
     "sponsors": [
       "Anna Caballero"
     ],
@@ -255,7 +244,6 @@
     "statuses": [
       "Pending"
     ],
-    "inEffectDate": null,
     "sponsors": [
       "Steven Doan",
       "Josh Calloway",
@@ -283,7 +271,6 @@
     "statuses": [
       "Pending"
     ],
-    "inEffectDate": null,
     "sponsors": [
       "Buffy Wicks"
     ],
@@ -304,7 +291,6 @@
     "statuses": [
       "Enacted"
     ],
-    "inEffectDate": "2022-09-28",
     "sponsors": [
       "Scott Wiener"
     ],
@@ -313,7 +299,7 @@
     ],
     "tags": [
       "universities",
-      "environmental quality act"
+      "environmental impact"
     ]
   },
   {
@@ -328,7 +314,6 @@
     "statuses": [
       "Enacted"
     ],
-    "inEffectDate": "2017-09-29",
     "sponsors": [
       "Scott Wiener"
     ],
@@ -352,7 +337,6 @@
     "statuses": [
       "Enacted"
     ],
-    "inEffectDate": "2023-10-11",
     "sponsors": [
       "Scott Wiener"
     ],
@@ -376,7 +360,6 @@
     "statuses": [
       "Enacted"
     ],
-    "inEffectDate": "2022-09-28",
     "sponsors": [
       "Buffy Wicks"
     ],
@@ -401,7 +384,6 @@
     "statuses": [
       "Enacted"
     ],
-    "inEffectDate": "2022-09-28",
     "sponsors": [
       "Anna Caballero"
     ],
@@ -424,7 +406,6 @@
     "statuses": [
       "Failed"
     ],
-    "inEffectDate": null,
     "sponsors": [
       "Scott Wiener"
     ],
@@ -447,7 +428,6 @@
     "statuses": [
       "Pending"
     ],
-    "inEffectDate": null,
     "sponsors": [
       "Nancy Skinner"
     ],
@@ -469,7 +449,6 @@
     "statuses": [
       "Pending"
     ],
-    "inEffectDate": null,
     "sponsors": [
       "Nancy Skinner"
     ],
@@ -489,7 +468,6 @@
     "statuses": [
       "Pending"
     ],
-    "inEffectDate": null,
     "sponsors": [
       "Steve Glazer"
     ],
@@ -510,7 +488,6 @@
     "statuses": [
       "Pending"
     ],
-    "inEffectDate": null,
     "sponsors": [
       "Steve Glazer"
     ],
@@ -531,7 +508,6 @@
     "statuses": [
       "Pending"
     ],
-    "inEffectDate": null,
     "sponsors": [
       "Tim Grayson"
     ],
@@ -554,7 +530,6 @@
     "statuses": [
       "Enacted"
     ],
-    "inEffectDate": "2019-10-09",
     "sponsors": [
       "Tim Grayson"
     ],
@@ -577,7 +552,6 @@
     "statuses": [
       "Pending"
     ],
-    "inEffectDate": null,
     "sponsors": [
       "Toni Atkins"
     ],
@@ -601,7 +575,6 @@
     "statuses": [
       "Pending"
     ],
-    "inEffectDate": null,
     "sponsors": [
       "Lori D. Wilson"
     ],
@@ -621,7 +594,6 @@
     "statuses": [
       "Pending"
     ],
-    "inEffectDate": null,
     "sponsors": [
       "Buffy Wicks"
     ],
@@ -642,7 +614,6 @@
     "statuses": [
       "Pending"
     ],
-    "inEffectDate": null,
     "sponsors": [
       "Pilar Schiavo"
     ],
@@ -662,7 +633,6 @@
     "statuses": [
       "Pending"
     ],
-    "inEffectDate": null,
     "sponsors": [
       "Ellen Read"
     ],
@@ -682,7 +652,6 @@
     "statuses": [
       "Pending"
     ],
-    "inEffectDate": null,
     "sponsors": [
       "Rebecca McWilliams"
     ],
@@ -703,7 +672,6 @@
     "statuses": [
       "Enacted"
     ],
-    "inEffectDate": "2019-10-09",
     "sponsors": [
       "Nancy Skinner"
     ],
@@ -724,7 +692,6 @@
     "statuses": [
       "Enacted"
     ],
-    "inEffectDate": "2023-10-01",
     "sponsors": [
       "Alexis Calatayud"
     ],
@@ -748,7 +715,6 @@
     "statuses": [
       "Enacted"
     ],
-    "inEffectDate": "2023-06-05",
     "tags": [
       "zoning reform",
       "ADU",
@@ -768,7 +734,6 @@
     "statuses": [
       "Enacted"
     ],
-    "inEffectDate": "2023-09-01",
     "sponsors": [
       "Cody Harris",
       "Steve Toth"
@@ -789,7 +754,6 @@
     "statuses": [
       "Enacted"
     ],
-    "inEffectDate": "2024-01-01",
     "sponsors": [
       "Jeremy Trebas"
     ],
@@ -810,7 +774,6 @@
     "statuses": [
       "Enacted"
     ],
-    "inEffectDate": "2023-10-01",
     "sponsors": [
       "Jeremy Trebas"
     ],
@@ -830,7 +793,6 @@
     "statuses": [
       "Enacted"
     ],
-    "inEffectDate": "2023-05-17",
     "sponsors": [
       "Forrest Mandeville"
     ],
@@ -852,7 +814,6 @@
     "statuses": [
       "Pending"
     ],
-    "inEffectDate": "2025-01-01",
     "sponsors": [
       "Michael Carbone"
     ],
@@ -872,7 +833,6 @@
     "statuses": [
       "Enacted"
     ],
-    "inEffectDate": "2023-04-03",
     "tags": [
       "ADU",
       "HOA"
@@ -890,7 +850,6 @@
     "statuses": [
       "Enacted"
     ],
-    "inEffectDate": "2023-06-16",
     "sponsors": [
       "Marc Malon"
     ],
@@ -910,7 +869,6 @@
     "statuses": [
       "Enacted"
     ],
-    "inEffectDate": "2022-04-27",
     "sponsors": [
       "Ryan Fecteau"
     ],
@@ -934,7 +892,6 @@
     "statuses": [
       "Enacted"
     ],
-    "inEffectDate": "2024-01-01",
     "sponsors": [
       "Greg Hertz"
     ],
@@ -954,7 +911,6 @@
     "statuses": [
       "Enacted"
     ],
-    "inEffectDate": "2023-07-23",
     "sponsors": [
       "Mia Gregerson"
     ],
@@ -974,7 +930,6 @@
     "statuses": [
       "Enacted"
     ],
-    "inEffectDate": "2023-07-23",
     "sponsors": [
       "Jessica Bateman"
     ],
@@ -996,7 +951,6 @@
     "statuses": [
       "Enacted"
     ],
-    "inEffectDate": "2022-01-01",
     "sponsors": [
       "Toni Atkins"
     ],
@@ -1038,7 +992,6 @@
     "statuses": [
       "Failed"
     ],
-    "inEffectDate": "",
     "sponsors": [
       "Scott Wiener"
     ],
@@ -1061,7 +1014,6 @@
     "statuses": [
       "Enacted"
     ],
-    "inEffectDate": "2023-10-11",
     "sponsors": [
       "Phil Ting"
     ],
@@ -1084,7 +1036,6 @@
     "statuses": [
       "Enacted"
     ],
-    "inEffectDate": "2023-10-11",
     "sponsors": [
       "Phil Ting"
     ],
@@ -1108,7 +1059,6 @@
     "statuses": [
       "Enacted"
     ],
-    "inEffectDate": "2022-09-28",
     "sponsors": [
       "Sharon Quirk-Silva"
     ],
@@ -1129,7 +1079,6 @@
     "statuses": [
       "Enacted"
     ],
-    "inEffectDate": "2022-09-28",
     "sponsors": [
       "Bob Wieckowski"
     ],
@@ -1172,7 +1121,6 @@
     "statuses": [
       "Enacted"
     ],
-    "inEffectDate": "2019-10-09",
     "sponsors": [
       "Richard Bloom"
     ],
@@ -1192,7 +1140,6 @@
     "statuses": [
       "Pending"
     ],
-    "inEffectDate": "",
     "sponsors": [
       "Scott Wiener"
     ],
@@ -1212,12 +1159,12 @@
     "statuses": [
       "Enacted"
     ],
-    "inEffectDate": "2024-07-01",
     "sponsors": [
       "Adele Y. McClure"
     ],
     "tags": [
-      "building codes","single stair"
+      "building codes",
+      "single stair"
     ]
   },
   {
@@ -1232,13 +1179,13 @@
     "statuses": [
       "Pending"
     ],
-    "inEffectDate": "2024-08-07",
     "sponsors": [
       "Alex Valdez",
       "Kevin Priola"
     ],
     "tags": [
-      "building codes","single stair"
+      "building codes",
+      "single stair"
     ]
   },
   {
@@ -1246,14 +1193,13 @@
     "memTitle": "Boost housing near transit through a pilot program",
     "formalTitle": "AN ACT RELATING TO TOWNS AND CITIES -- ZONING ORDINANCES",
     "summary": "Establishes a transit-oriented development pilot program to increase residential housing availability near public transportation, aiming to alleviate traffic congestion and support the Act on Climate goals. Effective from January 1, 2024, it allows municipalities with developable land near regional mobility hubs or frequent transit stops to apply for development funds, with specific criteria and application processes set by the Department of Housing in coordination with transportation and planning divisions.",
-    "legislativeTextURI": "https://legiscan.com/RI/text/S1052/id/2827614/Rhode_Island-2023-S1052-Comm_Sub.pdf",
+    "legislativeTextURI": "https://webserver.rilegislature.gov/billtext23/senatetext23/s1052.htm",
     "states": [
       "Rhode Island"
     ],
     "statuses": [
       "Enacted"
     ],
-    "inEffectDate": "2024-01-01",
     "sponsors": [
       "Meghan E. Kallman"
     ],
@@ -1274,12 +1220,13 @@
     "statuses": [
       "Enacted"
     ],
-    "inEffectDate": "2023-05-18",
     "sponsors": [
       "Daniel Zolnikov"
     ],
     "tags": [
-      "mixed use", "zoning reform","parking mandates"
+      "mixed use",
+      "zoning reform",
+      "parking mandates"
     ]
   },
   {
@@ -1287,14 +1234,13 @@
     "memTitle": "Ease discretionary development processes",
     "formalTitle": "An act relating to towns and cities -- Zoning Ordinances",
     "summary": "Simplifies the process for obtaining development permissions, especially for properties that don't meet current zoning standards. Distinguishes between minor and significant variances, streamlining approvals for minor changes without board intervention unless contested by neighbors. Mandates that municipalities define clear, objective criteria for special use permits, ensuring uses not explicitly covered are permitted by default.",
-    "legislativeTextURI": "https://webserver.rilegislature.gov/BillText23/SenateText23/S1032A.pdf",
+    "legislativeTextURI": "https://webserver.rilegislature.gov/billtext23/senatetext23/s1032.htm",
     "states": [
       "Rhode Island"
     ],
     "statuses": [
       "Enacted"
     ],
-    "inEffectDate": "2024-01-01",
     "sponsors": [
       "Frank Lombardi",
       "Matthew LaMountain",
@@ -1306,6 +1252,152 @@
     "tags": [
       "zoning reform",
       "ADU"
+    ]
+  },
+  {
+    "id": "S1033",
+    "memTitle": "Swiftly align zoning with comprehensive plans",
+    "formalTitle": "AN ACT RELATING TO TOWNS AND CITIES -- RHODE ISLAND COMPREHENSIVE PLANNING AND LAND USE ACT",
+    "summary": "Mandates municipalities to update zoning to align with new comprehensive plans within 18 months. Requires annual strategic plans, clarifying municipal growth and development goals.",
+    "legislativeTextURI": "https://webserver.rilegislature.gov/billtext23/senatetext23/s1033.htm",
+    "states": [
+      "Rhode Island"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "sponsors": [
+      "Ryan Pearson",
+      "Mark McKenney"
+    ],
+    "tags": [
+      "zoning reform"
+    ]
+  },
+  {
+    "id": "S1034",
+    "memTitle": "Simplify and refine land development processes",
+    "formalTitle": "AN ACT RELATING TO TOWNS AND CITIES -- SUBDIVISION OF LAND",
+    "summary": "Revises and clarifies development approval categories, formalizing that site plan review must have specific and objective guidelines. Expands the 'minor land development' category to include developments of up to nine units or lots.",
+    "legislativeTextURI": "https://webserver.rilegislature.gov/billtext23/senatetext23/s1034.htm",
+    "states": [
+      "Rhode Island"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "sponsors": [
+      "Ryan Pearson",
+      "Mark McKenney"
+    ],
+    "tags": [
+      "zoning reform"
+    ]
+  },
+  {
+    "id": "S1038",
+    "memTitle": "Streamline comprehensive planning procedures",
+    "formalTitle": "An act relating to towns and cities -- Rhode Island Comprehensive Planning and Land Use Act",
+    "summary": "Revises comprehensive plan procedures. Requires local planning boards or commissions to oversee plan preparation, incorporating extensive public engagement and state review. Mandates public notice enhancements and limits comprehensive plan amendments to four times per year.",
+    "legislativeTextURI": "https://webserver.rilegislature.gov/billtext23/senatetext23/s1038.htm",
+    "states": [
+      "Rhode Island"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "sponsors": [
+      "Dominick J. Ruggerio"
+    ],
+    "tags": [
+      "zoning reform"
+    ]
+  },
+  {
+    "id": "S1053",
+    "memTitle": "Establish a dedicated land use calendar in the superior court",
+    "formalTitle": "An act relating to courts and civil procedure--courts -- superior court",
+    "summary": "Establishes a land use calendar in the superior court to minimize delays in processing land use matters by exclusively hearing and deciding all eligible land use matters. This calendar is aimed at expediting the appeal process for land use decisions, previously amended to allow direct appeals to the superior court, ensuring faster resolution and uniform treatment of these cases.",
+    "legislativeTextURI": "https://webserver.rilegislature.gov/billtext23/senatetext23/s1053.htm",
+    "states": [
+      "Rhode Island"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "sponsors": [
+      "Mark McKenney",
+      "Matthew LaMountain"
+    ],
+    "tags": [
+      "appeals process"
+    ]
+  },
+  {
+    "id": "S1051",
+    "memTitle": "Specify some parameters for inclusionary zoning rules",
+    "formalTitle": "An act relating to towns and cities -- zoning ordinances",
+    "summary": "Amends zoning laws to mandate inclusion of affordable housing in new developments, ensuring at least 10% of units are affordable for 30 years. Introduces options like off-site construction or fees in lieu, with incentives like a 30% density bonus to offset costs.",
+    "legislativeTextURI": "https://webserver.rilegislature.gov/billtext23/senatetext23/s1051.htm",
+    "states": [
+      "Rhode Island"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "sponsors": [
+      "David P. Tikoian"
+    ],
+    "tags": [
+      "affordable housing",
+      "inclusionary zoning"
+    ]
+  },
+  {
+    "id": "S1037",
+    "memTitle": "Statewide density bonus and streamlined approvals for affordable housing",
+    "formalTitle": "An act relating to towns and cities -- low and moderate income housing",
+    "summary": "Establishes statewide density bonus ranging from 5 to 12 units per acre for developments with 25% to 100% deed-restricted low- and moderate-income housing. Streamlines the approval process by removing the requirement for developments to demonstrate no significant negative environmental impacts. Preempts limits on family-sized units and excessive parking requirements, applicable to both single-family and multifamily developments. Includes provisions for areas unserved by public sewer.",
+    "legislativeTextURI": "https://webserver.rilegislature.gov/billtext23/senatetext23/s1037.htm",
+    "states": [
+      "Rhode Island"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "sponsors": [
+      "Dominick J. Ruggerio",
+      "Ryan W. Pearson",
+      "Hanna M. Gallo",
+      "Jonathon Acosta"
+    ],
+    "tags": [
+      "zoning reform",
+      "affordable housing",
+      "parking mandates",
+      "environmental impact"
+    ]
+  },
+  {
+    "id": "S1035",
+    "memTitle": "Allow adaptive reuse of commercial buildings for residential with objective zoning standards.",
+    "formalTitle": "AN ACT RELATING TO TOWNS AND CITIES -- ZONING ORDINANCES",
+    "summary": "Provides that adaptive reuse for converting commercial property into residential or mixed-use shall be a permitted use allowed by objective zoning provisions, subject to certain restrictions. Exempts adaptive reuse from parking requirements over 1 per unit. Requires allowing density of at least 15 units per acre when limited to existing footprint and including affordable housing. Allows existing setbacks and heights to remain as legal nonconforming.",
+    "legislativeTextURI": "https://webserver.rilegislature.gov//BillText23/SenateText23/S1035.htm",
+    "states": [
+      "Rhode Island"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "sponsors": [
+      "Meghan Kallman",
+      "Alana DiMario"
+    ],
+    "tags": [
+      "adaptive reuse",
+      "parking mandates",
+      "zoning reform"
     ]
   }
 ]

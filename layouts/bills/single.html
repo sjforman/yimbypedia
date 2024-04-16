@@ -30,13 +30,6 @@
             {{ .Params.formalTitle }}
         </p>
 
-        {{ if .Params.inEffectDate }}
-        <p class="mb-4">
-            <span class="font-semibold">In effect as of:</span>
-            {{ dateFormat "January 2, 2006" .Params.inEffectDate }}
-        </p>
-        {{ end }}
-
         <p class="mb-4">
             <span class="font-semibold">Summary:</span>
             {{ .Params.summary }}

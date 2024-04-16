@@ -18,7 +18,6 @@ states:
   - California
 statuses:
   - Enacted
-inEffectDate: '2023-10-11'
 sponsors:
   - Scott Wiener
 tags:

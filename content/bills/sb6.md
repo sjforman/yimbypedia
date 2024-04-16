@@ -19,7 +19,6 @@ states:
   - California
 statuses:
   - Enacted
-inEffectDate: '2022-09-28'
 sponsors:
   - Anna Caballero
 relatedBills:
