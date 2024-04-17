@@ -2,6 +2,9 @@ baseURL = 'https://yimbypedia.org/'
 languageCode = 'en-us'
 title = 'YIMBYpedia'
 
+[params]
+  description = 'A compendium of YIMBY legislative efforts.'
+
 [taxonomies]
   state = "states"
   sponsor = "sponsors"

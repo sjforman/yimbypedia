@@ -16,5 +16,19 @@
     </title>
     <link rel="stylesheet" href="/css/index.css">
     <link rel="icon" type="image/png" href="/favicon.png">
+
+    <!-- Open Graph data (used by Facebook and others) -->
+    <meta property="og:title" content="{{ .Title }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ .Permalink }}" />
+    <meta property="og:image" content="{{ .Site.BaseURL }}siteimage.png" />
+    <meta property="og:description" content="{{ .Site.Params.Description }}" />
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@sjforman">
+    <meta name="twitter:title" content="{{ .Title }}">
+    <meta name="twitter:description" content="{{ .Site.Params.Description }}">
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}siteimage.png">
 </head>
 <body class="bg-gray-50 text-gray-900 font-sans leading-normal flex flex-col min-h-screen">
