@@ -5,7 +5,7 @@
     <div class="grid grid-cols-1 gap-6 mb-12">
         <div class="p-6 bg-blue-500 text-white rounded-lg shadow-md text-center shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-xl">
             {{ $allBills := .Site.RegularPages }}
-            <h2 class="text-3xl font-bold">Total bills tracked: {{ len $allBills }}</h2>
+            <h2 class="text-3xl font-bold">Bills tracked: {{ len $allBills }}</h2>
         </div>
     </div>
 </a>
@@ -82,6 +82,16 @@
         </a>
         {{ end }}
     </div>
+</div>
+
+<div class="my-8">
+    <h2 class="text-3xl font-bold mb-4 text-center">Major Bills</h2>
+    <a href="/major" class="text-center block hover:bg-gray-100 rounded-lg transition duration-300 ease-in-out">
+        <div class="py-4">
+            {{ $majorBills := where .Site.RegularPages "Params.major" true }}
+            <div class="text-5xl font-bold">{{ len $majorBills }}</div>
+        </div>
+    </a>
 </div>
 
 <div class="my-8">

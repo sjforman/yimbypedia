@@ -13,16 +13,23 @@
         </p>
 
         {{ with .Params.statuses }}
-        {{ range . }}
-        <p class="status mb-4">
-            <span class="font-semibold">Status:</span>
-                {{ if eq . "Pending" }}Pending 🕒
-                {{ else if eq . "Enacted" }}Enacted ✅
-                {{ else if eq . "Failed" }}Failed ❌
-                {{ else }}{{ . }}
-                {{ end }}
-        </p>
+            {{ range . }}
+            <p class="status mb-4">
+                <span class="font-semibold">Status:</span>
+                    {{ if eq . "Pending" }}Pending 🕒
+                    {{ else if eq . "Enacted" }}Enacted ✅
+                    {{ else if eq . "Failed" }}Failed ❌
+                    {{ else }}{{ . }}
+                    {{ end }}
+            </p>
+            {{ end }}
         {{ end }}
+
+        {{ if .Params.major }}
+            <p class="status mb-4">
+                <span class="font-semibold">Magnitude:</span>
+                    <span class="inline-block bg-yellow-400 text-white text-xs font-bold px-2 py-1 rounded-full uppercase tracking-wide">Major</span>
+            </p>
         {{ end }}
 
         <p class="mb-4">
