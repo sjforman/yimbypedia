@@ -1419,5 +1419,29 @@
       "duplex", "zoning reform", "missing middle"
     ],
     "major": true
+  },
+  {
+    "id": "SB1117",
+    "memTitle": "Simplify zoning and boost housing in Arizona",
+    "formalTitle": "AN ACT AMENDING SECTIONS 9-462.01, 9-462.03 AND 9-462.04, ARIZONA REVISED STATUTES; RELATING TO HOUSING",
+    "summary": "Enacts comprehensive zoning reforms to increase housing supply and affordability by reducing parking requirements, streamlining ADU regulations, and expediting residential rezoning processes. Mandates annual housing needs assessments to align municipal actions with growth projections. Restricts municipalities from imposing non-objective licensing requirements and simplifies the citizen review process for zoning changes. Establishes more flexible design standards for residential housing, prohibiting excessive control over aesthetic elements unless tied to historical significance or specific building codes.",
+    "legislativeTextURI": "https://apps.azleg.gov/BillStatus/GetDocumentPdf/506559",
+    "states": [
+      "Arizona"
+    ],
+    "statuses": [
+      "Failed"
+    ],
+    "sponsors": [
+      "Steve Kaiser"
+    ],
+    "tags": [
+      "ADU",
+      "zoning reform",
+      "permitting",
+      "objective standards",
+      "housing needs assessment"
+    ],
+    "major": true
   }
 ]
