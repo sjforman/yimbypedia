@@ -322,7 +322,8 @@
     ],
     "tags": [
       "zoning reform",
-      "affordable housing"
+      "affordable housing",
+      "housing goals"
     ]
   },
   {
@@ -1440,8 +1441,31 @@
       "zoning reform",
       "permitting",
       "objective standards",
-      "housing needs assessment"
+      "housing goals"
     ],
     "major": true
+  },
+  {
+    "id": "HB24-1313",
+    "memTitle": "Reward transit-oriented housing; penalize non-compliance",
+    "formalTitle": "An act concerning incentives for housing development near transit",
+    "summary": "Establishes transit-oriented communities in Colorado to increase housing near transit hubs. These communities must meet housing opportunity goals by ensuring adequate zoned density and administrative approvals for multifamily developments. The bill mandates state guidance for setting these goals and requires regular progress reports from communities. Non-compliance may result in withholding of funds from the Highway User Tax Fund. The bill also introduces tax incentives for developments in these areas and sets up a grant program for infrastructure upgrades within designated transit and neighborhood centers.",
+    "legislativeTextURI": "http://leg.colorado.gov/bills/hb24-1313",
+    "states": [
+      "Colorado"
+    ],
+    "statuses": [
+      "Failed"
+    ],
+    "sponsors": [
+      "Iman Jodeh",
+      "Steven Woodrow",
+      "Chris Hansen",
+      "Faith Winter"
+    ],
+    "tags": [
+      "transit oriented development",
+      "housing goals"
+    ]
   }
 ]
