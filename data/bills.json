@@ -1467,5 +1467,29 @@
       "transit oriented development",
       "housing goals"
     ]
+  },
+  {
+    "id": "SB23-213",
+    "memTitle": "Mandate comprehensive housing needs assessments and plans statewide",
+    "formalTitle": "A BILL FOR AN ACT CONCERNING STATE LAND USE REQUIREMENTS, AND, IN CONNECTION THEREWITH, MAKING AN APPROPRIATION",
+    "summary": "Mandates statewide, regional, and local housing needs assessments by December 31, 2024, and every 5 years thereafter. Directs creation of housing needs plans for rural and urban municipalities, with methodologies for affordability and displacement mitigation. Establishes a multi-agency advisory committee for oversight and public engagement in planning processes. Introduces ADU and middle housing model codes for use by right and imposes minimum standards to facilitate compliance if local codes are not adopted.",
+    "legislativeTextURI": "https://leg.colorado.gov/bills/sb23-213",
+    "states": [
+      "Colorado"
+    ],
+    "statuses": [
+      "Failed"
+    ],
+    "sponsors": [
+      "Dominick Moreno",
+      "Iman Jodeh",
+      "Steven Woodrow"
+    ],
+    "tags": [
+      "ADU",
+      "housing goals",
+      "zoning reform"
+    ],
+    "major": true
   }
 ]
