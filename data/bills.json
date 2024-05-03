@@ -1491,5 +1491,45 @@
       "zoning reform"
     ],
     "major": true
+  },
+  {
+    "id": "SB3202",
+    "memTitle": "Mandate two ADUs on residential lots and simplify subdivision approvals",
+    "formalTitle": "RELATING TO URBAN DEVELOPMENT.",
+    "summary": "Mandates counties to adopt ordinances allowing at least two accessory dwelling units on all residentially zoned lots by 12/31/2026. Prohibits private covenants from limiting the number of ADUs below state law or restricting long-term rentals. Streamlines subdivision, consolidation, or resubdivision applications under county director's oversight. Amends impact fees calculation for developments.",
+    "legislativeTextURI": "https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=SB&billnumber=3202&year=2024",
+    "states": [
+      "Hawaii"
+    ],
+    "statuses": [
+      "Pending"
+    ],
+    "sponsors": [
+      "Stanley Chang"
+    ],
+    "tags": [
+      "ADU"
+    ]
+  },
+  {
+    "id": "HB2090",
+    "memTitle": "Permit residential uses in commercial zones and encourage adaptive reuse of buildings",
+    "formalTitle": "RELATING TO HOUSING.",
+    "summary": "Authorizes residential use in commercial zones starting 1/1/2025. Mandates counties to update building codes to support the adaptive reuse of commercial buildings for residential purposes. Adaptive reuse provisions include allowing micro units and exempting certain parking requirements. Ensures that residential uses may be confined to specific floors and must adhere to existing development standards, excluding certain zoned areas.",
+    "legislativeTextURI": "https://www.capitol.hawaii.gov/session/measure_indiv.aspx?billtype=HB&billnumber=2090&year=2024",
+    "states": [
+      "Hawaii"
+    ],
+    "statuses": [
+      "Pending"
+    ],
+    "sponsors": [
+      "Luke Evslin"
+    ],
+    "tags": [
+      "adaptive reuse",
+      "building codes",
+      "parking mandates"
+    ]
   }
 ]
