@@ -77,7 +77,7 @@
     <h2 class="text-3xl font-bold mb-4 text-center">Tags</h2>
     <div class="flex flex-wrap justify-center gap-4">
         {{ range $tag, $pages := .Site.Taxonomies.tags }}
-        <a href="{{ printf "/tags/%s/" $tag | relLangURL }}" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-2 px-4 rounded shadow">
+        <a href="{{ printf "/tags/%s/" ($tag | urlize) | relLangURL }}" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-2 px-4 rounded shadow">
             {{ $tag }} ({{ len $pages }})
         </a>
         {{ end }}
