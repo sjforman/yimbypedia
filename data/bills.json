@@ -1551,5 +1551,25 @@
       "missing middle",
       "zoning reform"
     ]
-  } 
+  },
+  {
+    "id": "HB1400",
+    "memTitle": "Limit parking to 2 per unit and address various landlord-tenant issues",
+    "formalTitle": "AN ACT relative to residential parking spaces, landlord-tenant law, unauthorized occupant evictions, and zoning procedures concerning residential housing.",
+    "summary": "Limits the maximum number of residential parking spaces municipalities can require to 2 per unit. Defines terms related to tenants and specifies rights and obligations in unauthorized occupant evictions. Provides remedies for landlord-tenant law violations. Establishes a tax relief program for office-to-residential conversions, allows municipalities to adopt zoning ordinance changes, and adds authority for zoning powers concerning parking and lot size requirements related to sewer infrastructure.",
+    "legislativeTextURI": "https://www.gencourt.state.nh.us/bill_Status/billinfo.aspx?id=1759",
+    "states": [
+      "New Hampshire"
+  ],
+    "statuses": [
+      "Pending"
+    ],
+    "sponsors": [
+      "Rebecca McWilliams",
+      "Josh Yokela"
+    ],
+    "tags": [
+      "parking mandates"
+    ]
+  }
 ]
