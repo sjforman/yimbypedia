@@ -177,7 +177,7 @@
       "Colorado"
     ],
     "statuses": [
-      "Pending"
+      "Enacted"
     ],
     "sponsors": [
       "Judy Amabile",
@@ -1417,7 +1417,9 @@
       "Tina Kotek"
     ],
     "tags": [
-      "duplex", "zoning reform", "missing middle"
+      "duplex",
+      "zoning reform",
+      "missing middle"
     ],
     "major": true
   },
@@ -1560,7 +1562,7 @@
     "legislativeTextURI": "https://www.gencourt.state.nh.us/bill_Status/billinfo.aspx?id=1759",
     "states": [
       "New Hampshire"
-  ],
+    ],
     "statuses": [
       "Pending"
     ],
@@ -1570,6 +1572,243 @@
     ],
     "tags": [
       "parking mandates"
+    ]
+  },
+  {
+    "id": "SB1069",
+    "memTitle": "Promote ADUs by easing requirements and reducing parking and utility barriers.",
+    "formalTitle": "An act to amend Sections 65582.1, 65583.1, 65589.4, 65852.150, 65852.2, and 66412.2 of the Government Code, relating to land use.",
+    "summary": "Replaces 'second unit' with 'accessory dwelling unit' (ADU) in state law. Declares ADUs essential for California’s housing supply. Requires local ordinances to include provisions for ADUs, prohibits parking standards under specific conditions, mandates ministerial approval of ADU applications, and forbids new utility connections and related fees for certain ADUs.",
+    "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201520160SB1069",
+    "states": [
+      "California"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "sponsors": [
+      "Bob Wieckowski"
+    ],
+    "tags": [
+      "ADU",
+      "parking mandates",
+      "utility connections"
+    ]
+  },
+  {
+    "id": "AB2299",
+    "memTitle": "Streamline ADU approvals, ease parking requirements, and mandate ministerial approval.",
+    "formalTitle": "An act to amend Section 65852.2 of the Government Code, relating to land use.",
+    "summary": "Replaces the term 'second unit' with 'accessory dwelling unit' (ADU). Requires local ordinances to include provisions for ADUs, mandates ministerial approval, eliminates additional parking requirements, and allows reduced or eliminated parking requirements for ADUs.",
+    "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201520160AB2299",
+    "states": [
+      "California"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "sponsors": [
+      "Richard Bloom"
+    ],
+    "tags": [
+      "ADU",
+      "parking mandates",
+      "permitting"
+    ]
+  },
+  {
+    "id": "AB2406",
+    "memTitle": "Authorize junior ADUs and streamline approval process.",
+    "formalTitle": "An act to add Section 65852.22 to the Government Code, relating to housing, and declaring the urgency thereof, to take effect immediately.",
+    "summary": "Authorizes local agencies to create junior accessory dwelling units (JADUs) in single-family residential zones. Limits JADUs to one per residential lot with an existing single-family residence, requires owner-occupancy, mandates deed restrictions, and prohibits additional parking requirements. Specifies that permits for JADUs must be processed ministerially within 120 days.",
+    "legislativeTextURI": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201520160AB2406",
+    "states": [
+      "California"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "sponsors": [
+      "Tony Thurmond"
+    ],
+    "tags": [
+      "ADU",
+      "permitting",
+      "parking mandates",
+      "owner occupancy"
+    ]
+  },
+  {
+    "id": "SB1051",
+    "memTitle": "Decide on affordable housing developments quickly. Allow ADUs.",
+    "formalTitle": "An act relating to use of real property; creating new provisions; amending ORS 197.178, 197.303, 197.307, 197.312, 215.416, 215.427, 215.441, 227.175, 227.178 and 227.500; and declaring an emergency.",
+    "summary": "Requires cities with populations over 5,000 or counties with populations over 25,000 to review and decide on applications for certain housing developments containing affordable housing units within 100 days. Prohibits cities and counties from reducing density or height of housing developments if at least 75% of the floor area is reserved for housing, unless necessary to resolve health, safety, or habitability issues. Mandates that cities with populations over 2,500 and counties with populations over 15,000 allow the development of at least one accessory dwelling unit (ADU) for each detached single-family dwelling, subject to reasonable local regulations.",
+    "legislativeTextURI": "https://olis.oregonlegislature.gov/liz/2017R1/Measures/Overview/SB1051",
+    "states": [
+      "Oregon"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "sponsors": [
+      "Tina Kotek",
+      "Brian Boquist"
+    ],
+    "tags": [
+      "affordable housing",
+      "approval process",
+      "ADU"
+    ]
+  },
+  {
+    "id": "SB5235",
+    "memTitle": "Increase ADU availability by easing local regulations.",
+    "formalTitle": "An act relating to accessory dwelling units; amending RCW 36.70A.696, 36.70A.697, and 36.70A.698; reenacting and amending RCW 36.70A.070; adding new sections to chapter 36.70A RCW; and creating a new section.",
+    "summary": "Requires cities and counties to allow the construction of at least one attached and one detached accessory dwelling unit (ADU) on residential lots. Prohibits owner occupancy requirements and additional parking requirements for ADUs near major transit stops. Allows local governments to adopt ordinances to incentivize ADUs for long-term housing by waiving fees and taxes. Prevents restrictive covenants or deed restrictions from prohibiting ADUs.",
+    "legislativeTextURI": "https://app.leg.wa.gov/billsummary?BillNumber=5235&Year=2023&Initiative=false",
+    "states": [
+      "Washington"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "sponsors": [
+      "Alicia Rule",
+      "Emily Wicks",
+      "Liz Lovelett",
+      "Joe Nguyen",
+      "Jamie Pedersen",
+      "Jesse Salomon"
+    ],
+    "tags": [
+      "ADU",
+      "parking mandates",
+      "owner occupancy"
+    ]
+  },
+  {
+    "id": "SB146",
+    "memTitle": "Allow accessory dwelling units statewide",
+    "formalTitle": "An act relative to accessory dwelling units.",
+    "summary": "Requires municipalities to allow accessory dwelling units (ADUs) as a right or through conditional use permits in all zoning districts that permit single-family dwellings. Ensures ADUs have independent living facilities. Prohibits municipalities from imposing more restrictive standards on ADUs than on primary residences, except for certain conditions.",
+    "legislativeTextURI": "https://gencourt.state.nh.us/bill_status/legacy/bs2016/results.aspx?lsr=314&sortoption=billnumber&txtsessionyear=2016&txtbillnumber=sb146",
+    "states": [
+      "New Hampshire"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "sponsors": [
+      "David Boutin"
+    ],
+    "tags": [
+      "ADU"
+    ]
+  },
+  {
+    "id": "HB06107",
+    "memTitle": "Allow accessory apartments and streamline affordable housing plans.",
+    "formalTitle": "An act concerning the Zoning Enabling Act, accessory apartments, training for certain land use officials, municipal affordable housing plans and a commission on Connecticut’s development and future.",
+    "summary": "Defines 'accessory apartment' and 'affordable accessory apartment'. Allows municipalities to approve accessory apartments as of right without requiring public hearings or variances. Establishes guidelines for affordable accessory apartments with rent or sale price restrictions for at least ten years. Promotes training for land use officials and mandates municipal affordable housing plans.",
+    "legislativeTextURI": "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=HB06107&which_year=2021",
+    "states": [
+      "Connecticut"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "sponsors": [
+      "Jason Rojas",
+      "Steve Cassano",
+      "Roland J. Lemar",
+      "Hilda E. Santiago"
+    ],
+    "tags": [
+      "ADU",
+      "training"
+    ]
+  },
+  {
+    "id": "S4547",
+    "memTitle": "Require municipalities to allow accessory dwelling units",
+    "formalTitle": "An act to amend the real property law, in relation to accessory dwelling units; and to amend the executive law, in relation to including an accessory dwelling unit in the term housing accommodations in human rights law",
+    "summary": "Works with local governments to create local ADU laws. Defines ADUs as apartments on lots with a primary residence, including permanent provisions for sleeping, eating, cooking, and sanitation. Directs localities to adopt ordinances allowing ADUs on residential lots, permits at least one ADU per lot, and prohibits restrictive standards beyond those for primary residences.",
+    "legislativeTextURI": "https://www.nysenate.gov/legislation/bills/2021/S4547",
+    "states": [
+      "New York"
+    ],
+    "statuses": [
+      "Failed"
+    ],
+    "sponsors": [
+      "Pete Harckham",
+      "Alessandra Biaggi",
+      "Andrew Gounardes",
+      "Michelle Hinchey",
+      "Brad Hoylman-Sigal"
+    ],
+    "tags": [
+      "ADU"
+    ]
+  },
+  {
+    "id": "H7942",
+    "memTitle": "Streamline ADU approval and prohibit excessive restrictions",
+    "formalTitle": "AN ACT RELATING TO TOWNS AND CITIES -- ZONING ORDINANCES",
+    "summary": "Revises and clarifies the definition of accessory dwelling units (ADUs) in the zoning enabling act. Provides a consistent statewide framework for ADUs, removing barriers to their utilization, and streamlines the approval process. Permits ADUs to be counted towards low and moderate-income housing requirements under certain conditions.",
+    "legislativeTextURI": "https://webserver.rilegislature.gov/BillText22/HouseText22/H7942.htm",
+    "states": [
+      "Rhode Island"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "sponsors": [
+      "Mia Ackerman",
+      "Joseph Shekarchi"
+    ],
+    "tags": [
+      "ADU"
+    ]
+  },
+  {
+    "id": "SB382",
+    "memTitle": "Establish an ADU task force to review and promote ADU policies.",
+    "formalTitle": "An act concerning Accessory Dwelling Unit Promotion and Policy Task Force.",
+    "summary": "Establishes the Accessory Dwelling Unit Promotion and Policy Task Force to study state and local government efforts to promote the creation of accessory dwelling units (ADUs) on land zoned for single-family residential use. Reviews existing laws and policies associated with ADU development throughout Maryland, surveys and documents a representative sampling of ordinances, laws, codes, and policies regarding ADUs at the state and local level.",
+    "legislativeTextURI": "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0382?ys=2023RS",
+    "states": [
+      "Maryland"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "sponsors": [
+      "Mary Washington"
+    ],
+    "tags": [
+      "ADU"
+    ]
+  },
+  {
+    "id": "S345",
+    "memTitle": "Enable development of ADUs with fewer restrictions.",
+    "formalTitle": "An act concerning accessory dwelling units, supplementing and amending P.L.1975, c.291, and amending P.L.1985, c.222.",
+    "summary": "Allows accessory dwelling units (ADUs) on lots with single-family homes, excluding common interest community dwellings. Prohibits municipalities from imposing restrictive conditions such as passageways, external doors, additional parking, familial relationships, or utility separations for ADUs. Sets maximum size at 1,200 square feet and allows ADUs to count towards affordable housing obligations.",
+    "legislativeTextURI": "https://www.njleg.state.nj.us/bill-search/2022/S345",
+    "states": [
+      "New Jersey"
+    ],
+    "statuses": [
+      "Failed"
+    ],
+    "sponsors": [
+      "Troy Singleton",
+      "Andrew Zwicker"
+    ],
+    "tags": [
+      "ADU",
+      "zoning reform"
     ]
   }
 ]
