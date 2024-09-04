@@ -1787,5 +1787,26 @@
       "ADU",
       "zoning reform"
     ]
+  },
+  {
+    "id": "H4977",
+    "memTitle": "Invest billions in affordable housing and public housing modernization.",
+    "formalTitle": "An Act relative to the Affordable Homes Act.",
+    "summary": "Allocates $5.16 billion over five years for affordable housing and public housing rehabilitation. Provides $800M for the Affordable Housing Trust Fund to create and preserve affordable housing, including assistance for first-time homebuyers in disproportionately impacted communities. Funds $425M for new construction and rehabilitation through the Housing Stabilization and Investment Fund, and $2B for modernizing public housing. Supports green housing initiatives and authorizes borrowing against capital funds for housing authorities. Permits Accessory Dwelling Units (ADUs) under 900 square feet by-right in single-family zoning districts, eliminates owner occupancy requirements, and prohibits parking mandates within ½ mile of transit.",
+    "legislativeTextURI": "https://malegislature.gov/Laws/SessionLaws/Acts/2024/Chapter150",
+    "states": [
+      "Massachusetts"
+    ],
+    "statuses": [
+      "Enacted"
+    ],
+    "sponsors": [
+      "Maura Healey"
+    ],
+    "major": true,
+    "tags": [
+      "affordable housing",
+      "ADU"
+    ]
   }
 ]
