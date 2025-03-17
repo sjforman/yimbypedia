@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "gen-bills": "node bin/make-pages.js",
-    "dev": "concurrently \"npm run watch:css\" \"npm run gen-bills\" \"hugo server -vD\"",
+    "dev": "concurrently \"npm run watch:css\" \"npm run gen-bills\" \"hugo server -D\"",
     "watch:css": "npx tailwindcss -i ./assets/css/input.css -o ./static/css/index.css --watch",
     "build": "hugo --minify",
     "deploy": "npm-run-all -s build deploy:s3 deploy:cloudfront",
